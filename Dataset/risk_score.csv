@@ -1,0 +1,101 @@
+disease,risk_score,severity_level,surgery_needed,emergency,probability_death_range
+Panic disorder,25,Low,No,No,0%
+Vaginitis,10,Low,No,No,0%
+Problem during pregnancy,65,High,No,Yes,1-5%
+Acute pancreatitis,85,Critical,No,Yes,5-10%
+Asthma,55,Medium,No,Yes,0-1%
+Infectious gastroenteritis,30,Low,No,No,0%
+Acute sinusitis,15,Low,No,No,0%
+Cornea infection,35,Medium,No,No,0%
+Marijuana abuse,40,Medium,No,No,0%
+Bursitis,10,Low,No,No,0%
+Actinic keratosis,20,Low,No,No,0%
+COPD,75,High,No,No,10-20%
+Spondylosis,20,Low,No,No,0%
+Injury to the arm,30,Low,No,No,0%
+Complex regional pain syndrome,50,Medium,No,No,0%
+Injury to the trunk,45,Medium,No,Yes,0-1%
+Vulvodynia,10,Low,No,No,0%
+Concussion,40,Medium,No,Yes,0-1%
+Hypoglycemia,60,High,No,Yes,0-1%
+Hiatal hernia,25,Low,No,No,0%
+Allergy,15,Low,No,No,0%
+Acute bronchospasm,55,Medium,No,Yes,0-1%
+Degenerative disc disease,20,Low,No,No,0%
+Pain after an operation,30,Low,No,No,0%
+Injury to the leg,30,Low,No,No,0%
+Gout,25,Low,No,No,0%
+Otitis media,15,Low,No,No,0%
+Acute kidney injury,90,Critical,No,Yes,20-30%
+Threatened pregnancy,50,Medium,No,Yes,0-1%
+Gum disease,15,Low,No,No,0%
+Gastrointestinal hemorrhage,80,Critical,Yes,Yes,5-10%
+Anxiety,25,Low,No,No,0%
+Conjunctivitis due to allergy,5,Low,No,No,0%
+Drug reaction,50,Medium,No,Yes,0-1%
+Macular degeneration,20,Low,No,No,0%
+Pneumonia,70,High,No,Yes,1-5%
+Vaginal cyst,10,Low,No,No,0%
+Carpal tunnel syndrome,15,Low,Yes,No,0%
+Nose disorder,10,Low,No,No,0%
+Dental caries,5,Low,No,No,0%
+Hypertensive heart disease,80,High,No,No,10-20%
+Seasonal allergies (hay fever),5,Low,No,No,0%
+Fungal infection of the hair,5,Low,No,No,0%
+Rectal disorder,15,Low,No,No,0%
+Stye,5,Low,No,No,0%
+Heart attack,95,Critical,Yes,Yes,20-30%
+Obstructive sleep apnea (OSA),50,Medium,Yes,No,0-1%
+Psoriasis,15,Low,No,No,0%
+Arthritis of the hip,30,Low,Yes,No,0%
+Sickle cell crisis,75,High,No,Yes,1-5%
+Otitis externa (swimmer's ear),10,Low,No,No,0%
+Acute bronchiolitis,40,Medium,No,Yes,0-1%
+Pyogenic skin infection,20,Low,No,No,0%
+Noninfectious gastroenteritis,25,Low,No,No,0%
+Benign prostatic hyperplasia (BPH),30,Low,Yes,No,0%
+Spinal stenosis,35,Medium,Yes,No,0%
+Acute bronchitis,20,Low,No,No,0%
+Croup,30,Low,No,Yes,0%
+Idiopathic excessive menstruation,20,Low,No,No,0%
+Ear drum damage,15,Low,Yes,No,0%
+Temporary or benign blood in urine,10,Low,No,No,0%
+Common cold,5,Low,No,No,0%
+Depression,45,Medium,No,No,0%
+Idiopathic irregular menstrual cycle,15,Low,No,No,0%
+Schizophrenia,60,High,No,No,0%
+Sepsis,100,Critical,No,Yes,30-40%
+Cholecystitis,70,High,Yes,Yes,1-5%
+Cystitis,15,Low,No,No,0%
+Hemorrhoids,15,Low,Yes,No,0%
+Contact dermatitis,5,Low,No,No,0%
+Sinus bradycardia,50,Medium,Yes,No,0-1%
+Pelvic inflammatory disease,40,Medium,No,No,0%
+Liver disease,85,Critical,Yes,No,20-30%
+Chronic constipation,10,Low,No,No,0%
+Skin polyp,5,Low,No,No,0%
+Brachial neuritis,20,Low,No,No,0%
+Esophagitis,25,Low,No,No,0%
+Diverticulitis,55,Medium,Yes,Yes,1-5%
+Sprain or strain,5,Low,No,No,0%
+Idiopathic painful menstruation,10,Low,No,No,0%
+Eustachian Tube Dysfunction (Ear Disorder),5,Low,No,No,0%
+Appendicitis,80,Critical,Yes,Yes,0-1%
+Hyperemesis gravidarum,35,Medium,No,No,0%
+Urinary tract infection,20,Low,No,No,0%
+Peripheral nerve disorder,30,Low,No,No,0%
+Sebaceous cyst,5,Low,Yes,No,0%
+Spontaneous abortion,50,Medium,Yes,Yes,0-1%
+Gallstone,60,High,Yes,No,0-1%
+Multiple sclerosis,65,High,No,No,1-5%
+Angina,70,High,Yes,Yes,5-10%
+Skin pigmentation disorder,5,Low,No,No,0%
+Personality disorder,40,Medium,No,No,0%
+Strep throat,15,Low,No,No,0%
+Developmental disability,10,Low,No,No,0%
+Chronic back pain,25,Low,No,No,0%
+Heart failure,90,Critical,Yes,Yes,30-40%
+Conjunctivitis,5,Low,No,No,0%
+Herniated disk,30,Low,Yes,No,0%
+Diaper rash,5,Low,No,No,0%
+Eczema,10,Low,No,No,0%

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MediScan AI | Clinical Analysis Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dashboard.css" />
+    <!-- amCharts -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <!-- jsPDF for client-side PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <header class="header">
+        <div class="header-brand">
+          <div class="logo">MS</div>
+          <div class="header-text">
+            <h1>MediScan AI Clinical Analysis</h1>
+            <p>Intelligent Symptom Assessment & Diagnostic Support</p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Move the user input out of the header into its own row so it
+           doesn't overlap header content or charts. This keeps layout
+           stable across zoom levels and screen sizes. -->
+      <div class="user-input">
+        <label for="symptom-input" class="patient-info-label">Symptoms</label>
+        <div style="position: relative; width: 100%; max-width: 740px">
+          <input
+            id="symptom-input"
+            placeholder="Start typing symptoms — select from the list"
+            autocomplete="off"
+          />
+          <div
+            id="symptom-dropdown"
+            class="symptom-dropdown"
+            aria-hidden="true"
+          ></div>
+        </div>
+        <div style="display: flex; gap: 8px; align-items: center">
+          <input id="age-input" type="number" placeholder="Age" />
+          <button id="submit-btn">Predict</button>
+        </div>
+        <div id="symptom-chips"></div>
+      </div>
+
+      <!-- Saved Symptoms Panel: displays the list of selected symptoms persistently -->
+      <div id="saved-symptoms-panel" class="saved-symptoms">
+        <div class="saved-header">
+          <h3>Saved Symptoms</h3>
+          <button id="clear-saved-symptoms" class="download-prescription">
+            Clear
+          </button>
+        </div>
+        <ul id="saved-symptoms-list"></ul>
+      </div>
+
+      <section class="summary-section">
+        <div class="chart-box">
+          <h2>Differential Diagnosis Probability</h2>
+          <div id="probabilityChart"></div>
+        </div>
+        <div class="chart-box">
+          <h2>Risk Score Comparison</h2>
+          <div id="riskBarChart"></div>
+        </div>
+      </section>
+
+      <section class="prediction-grid">
+        <div class="prediction-column column-primary" id="col-primary">
+          <div class="column-header">
+            <div class="sub-label">Primary Diagnosis</div>
+            <h2 id="col-primary-name">Infectious Gastroenteritis</h2>
+            <div class="probability" id="col-primary-prob">46.32%</div>
+          </div>
+          <div class="risk-grid">
+            <div class="risk-card severity-Low">
+              <div class="label">Severity</div>
+              <div class="value" id="col-primary-severity">Low</div>
+            </div>
+            <div class="risk-card">
+              <div class="label">Emergency</div>
+              <div class="value" id="col-primary-emergency">No</div>
+            </div>
+            <div class="risk-card">
+              <div class="label">Risk Score</div>
+              <div class="value" id="col-primary-risk">30</div>
+            </div>
+            <div class="risk-card">
+              <div class="label">Surgery Needed</div>
+              <div class="value" id="col-primary-surgery">No</div>
+            </div>
+          </div>
+          <p class="description" id="col-primary-desc">
+            Infectious gastroenteritis is an intestinal infection...
+          </p>
+          <div class="report-grid">
+            <div class="report-list">
+              <h3>Precautions</h3>
+              <ul id="col-primary-precautions"></ul>
+            </div>
+            <div class="report-list">
+              <h3>Medications</h3>
+              <ul id="col-primary-meds"></ul>
+            </div>
+            <div class="report-list">
+              <h3>Dietary Advice</h3>
+              <ul id="col-primary-diets"></ul>
+            </div>
+            <div class="report-list">
+              <h3>Activity Guidance</h3>
+              <ul id="col-primary-workouts"></ul>
+            </div>
+          </div>
+          <div style="margin-top: 18px; text-align: center">
+            <button id="col-primary-download" class="download-prescription">
+              Download Prescription
+            </button>
+          </div>
+        </div>
+
+        <div class="prediction-column column-secondary" id="col-secondary-left">
+          <div class="column-header">
+            <div class="sub-label">Secondary Diagnosis</div>
+            <h2 id="col-left-name">Influenza</h2>
+            <div class="probability" id="col-left-prob">33.79%</div>
+          </div>
+          <div class="risk-grid">
+            <div class="risk-card severity-Medium">
+              <div class="label">Severity</div>
+              <div class="value" id="col-left-severity">Medium</div>
+            </div>
+            <div class="risk-card">
+              <div class="label">Emergency</div>
+              <div class="value" id="col-left-emergency">Yes</div>
+            </div>
+            <div class="risk-card">
+              <div class="label">Risk Score</div>
+              <div class="value" id="col-left-risk">55</div>
+            </div>
+            <div class="risk-card">
+              <div class="label">Surgery</div>
+              <div class="value" id="col-left-surgery">No</div>
+            </div>
+          </div>
+          <p class="description" id="col-left-desc">
+            Influenza (the flu) is a contagious respiratory illness...
+          </p>
+          <div class="report-grid">
+            <div class="report-list">
+              <h3>Key Precautions</h3>
+              <ul id="col-left-precautions"></ul>
+            </div>
+            <div class="report-list">
+              <h3>Primary Medications</h3>
+              <ul id="col-left-meds"></ul>
+            </div>
+          </div>
+          <div style="margin-top: 18px; text-align: center">
+            <button id="col-left-download" class="download-prescription">
+              Download Prescription
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="prediction-column column-secondary"
+          id="col-secondary-right"
+        >
+          <div class="column-header">
+            <div class="sub-label">Tertiary Diagnosis</div>
+            <h2 id="col-right-name">Dengue Fever</h2>
+            <div class="probability" id="col-right-prob">19.89%</div>
+          </div>
+          <div class="risk-grid">
+            <div class="risk-card severity-High">
+              <div class="label">Severity</div>
+              <div class="value" id="col-right-severity">High</div>
+            </div>
+            <div class="risk-card">
+              <div class="label">Emergency</div>
+              <div class="value" id="col-right-emergency">Yes</div>
+            </div>
+            <div class="risk-card">
+              <div class="label">Risk Score</div>
+              <div class="value" id="col-right-risk">70</div>
+            </div>
+            <div class="risk-card">
+              <div class="label">Surgery</div>
+              <div class="value" id="col-right-surgery">No</div>
+            </div>
+          </div>
+          <p class="description" id="col-right-desc">
+            Dengue fever is a mosquito-borne tropical disease...
+          </p>
+          <div class="report-grid">
+            <div class="report-list">
+              <h3>Key Precautions</h3>
+              <ul id="col-right-precautions"></ul>
+            </div>
+            <div class="report-list">
+              <h3>Primary Medications</h3>
+              <ul id="col-right-meds"></ul>
+            </div>
+          </div>
+          <div style="margin-top: 18px; text-align: center">
+            <button id="col-right-download" class="download-prescription">
+              Download Prescription
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>
+          MediScan AI Clinical Decision Support System | For professional use
+          only.
+        </p>
+      </footer>
+    </div>
+
+    <script src="dashboard.js" defer></script>
+  </body>
+</html>

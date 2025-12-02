@@ -1,0 +1,3393 @@
+{
+    "panic disorder": {
+        "description": "Panic disorder is a mental health condition marked by sudden, unexpected panic attacks\u2014intense periods of fear or discomfort\u2014often accompanied by physical symptoms like chest pain, rapid heartbeat, shortness of breath, or dizziness.",
+        "risk_score": 25,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Practice deep breathing",
+            "Avoid caffeine",
+            "Follow therapy plan",
+            "Seek support from loved ones"
+        ],
+        "medications": [
+            "SSRIs (e.g., Sertraline, Fluoxetine)",
+            "Benzodiazepines (e.g., Clonazepam, Alprazolam)",
+            "SNRIs (e.g., Venlafaxine)",
+            "Beta-blockers",
+            "Cognitive Behavioral Therapy (CBT)"
+        ],
+        "diets": [
+            "Magnesium-rich foods (spinach, pumpkin seeds, almonds)",
+            "Omega-3 fatty acids (salmon, flaxseeds, walnuts)",
+            "Complex carbs (oats, quinoa)",
+            "Green tea (L-theanine)",
+            "Limit caffeine and sugar"
+        ],
+        "workouts": [
+            "Deep breathing exercises: Calm your mind by focusing on slow, deep breaths",
+            "Yoga: Combines breathing and movement for relaxation",
+            "Mindfulness meditation: Helps reduce anxiety by staying present",
+            "Regular aerobic exercise: Boosts mood and reduces stress"
+        ]
+    },
+    "vaginitis": {
+        "description": "Vaginitis is inflammation of the vaginal tissue, typically caused by infections (bacterial, fungal, or parasitic), hormonal imbalances, or irritants, resulting in discharge, itching, pain, or burning during urination.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Wear breathable cotton underwear",
+            "Avoid douching",
+            "Maintain genital hygiene",
+            "Avoid scented hygiene products"
+        ],
+        "medications": [
+            "Metronidazole",
+            "Clindamycin",
+            "Fluconazole",
+            "Hydrocortisone cream",
+            "Probiotic supplements"
+        ],
+        "diets": [
+            "Probiotics (yogurt, kefir, sauerkraut)",
+            "Low-sugar diet (avoid sweets, processed sugar)",
+            "Garlic (raw or cooked)",
+            "Cranberry juice (unsweetened)",
+            "Hydration (water, herbal teas)"
+        ],
+        "workouts": [
+            "Pelvic floor exercises: Strengthen pelvic muscles to reduce discomfort",
+            "Avoid tight clothing: Prevent irritation",
+            "Use cotton underwear: Helps keep area dry and breathable",
+            "Maintain hygiene: Prevent infections"
+        ]
+    },
+    "problem during pregnancy": {
+        "description": "Problems during pregnancy refer to medical complications such as gestational diabetes, preeclampsia, or fetal growth restriction that can affect the health of the mother or baby during gestation.",
+        "risk_score": 65,
+        "severity_level": "High",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "1-5%",
+        "precautions": [
+            "Attend regular prenatal visits",
+            "Avoid alcohol and smoking",
+            "Eat a balanced diet",
+            "Get adequate rest"
+        ],
+        "medications": [
+            "Prenatal vitamins",
+            "Iron supplements",
+            "Antihypertensives (e.g., Labetalol)",
+            "Insulin (for gestational diabetes)",
+            "Folic acid"
+        ],
+        "diets": [
+            "Prenatal vitamins (consult doctor)",
+            "Iron-rich foods (red meat, lentils, spinach)",
+            "Folate-rich foods (leafy greens, fortified cereals)",
+            "Calcium and Vitamin D (milk, cheese, fortified plant milk)",
+            "Avoid raw fish, deli meats, unpasteurized dairy"
+        ],
+        "workouts": [
+            "Prenatal yoga: Gentle stretches safe for pregnancy",
+            "Walking: Keeps you active and healthy",
+            "Pelvic tilts: Strengthen core muscles",
+            "Kegel exercises: Support pelvic health"
+        ]
+    },
+    "acute pancreatitis": {
+        "description": "Acute pancreatitis is a sudden inflammation of the pancreas that causes severe abdominal pain, nausea, vomiting, and elevated pancreatic enzymes, often due to gallstones or alcohol use.",
+        "risk_score": 85,
+        "severity_level": "Critical",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "5-10%",
+        "precautions": [
+            "Avoid alcohol",
+            "Eat a low-fat diet",
+            "Stay hydrated",
+            "Follow doctor's advice strictly"
+        ],
+        "medications": [
+            "IV fluids",
+            "Pain relievers (e.g., Morphine)",
+            "Antibiotics (if infection)",
+            "Enzyme replacement therapy",
+            "Fasting/NPO"
+        ],
+        "diets": [
+            "Low-fat foods (boiled vegetables, lean chicken breast)",
+            "Small frequent meals",
+            "Broths and clear liquids (chicken broth, vegetable broth)",
+            "Avoid alcohol and caffeine",
+            "Lean proteins (tofu, white fish)"
+        ],
+        "workouts": [
+            "Avoid heavy lifting: Prevent strain on pancreas",
+            "Gentle stretching: Maintain flexibility",
+            "Rest: Allow healing",
+            "Breathing exercises: Reduce stress and pain"
+        ]
+    },
+    "asthma": {
+        "description": "Asthma is a chronic inflammatory disease of the airways causing recurrent wheezing, breathlessness, chest tightness, and coughing, often triggered by allergens, exercise, or cold air.",
+        "risk_score": 55,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Avoid known triggers",
+            "Use inhaler as prescribed",
+            "Monitor peak flow",
+            "Keep emergency inhaler handy"
+        ],
+        "medications": [
+            "Inhaled corticosteroids (e.g., Fluticasone)",
+            "Beta-agonists (e.g., Albuterol)",
+            "Leukotriene modifiers (e.g., Montelukast)",
+            "Anticholinergics (e.g., Ipratropium)",
+            "Omalizumab"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (blueberries, kale, turmeric)",
+            "Magnesium-rich foods (pumpkin seeds, spinach)",
+            "Omega-3s (wild salmon, chia seeds)",
+            "Avoid dairy if sensitive",
+            "Vitamin D-rich foods (egg yolks, fortified milk)"
+        ],
+        "workouts": [
+            "Breathing exercises: Improve lung function",
+            "Yoga: Combines breathing and movement",
+            "Swimming: Low-impact cardio good for lungs",
+            "Avoid strenuous workouts during flare-ups: Prevent attacks"
+        ]
+    },
+    "infectious gastroenteritis": {
+        "description": "Infectious gastroenteritis is an intestinal infection caused by viruses, bacteria, or parasites, leading to symptoms like diarrhea, vomiting, abdominal cramps, and fever.",
+        "risk_score": 30,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Wash hands frequently",
+            "Avoid sharing utensils",
+            "Drink clean water",
+            "Avoid street food"
+        ],
+        "medications": [
+            "Oral rehydration salts (ORS)",
+            "Antibiotics (e.g., Ciprofloxacin, if bacterial)",
+            "Antiemetics (e.g., Ondansetron)",
+            "Probiotics",
+            "Loperamide (if appropriate)"
+        ],
+        "diets": [
+            "Oral rehydration solution (ORS)",
+            "BRAT diet (bananas, rice, applesauce, toast)",
+            "Clear soups (chicken soup)",
+            "Avoid dairy and greasy foods",
+            "Probiotics (yogurt, kefir)"
+        ],
+        "workouts": [
+            "Rest: Allow the body to recover",
+            "Gentle walking: Only after symptoms improve",
+            "Hydration focus: Replenish fluids before any activity",
+            "Avoid strenuous exercise: Prevent worsening dehydration"
+        ]
+    },
+    "acute sinusitis": {
+        "description": "Acute sinusitis is a temporary inflammation or infection of the sinuses, usually following a cold, causing nasal congestion, facial pain, pressure, and headache.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Use nasal saline spray",
+            "Stay hydrated",
+            "Avoid allergens",
+            "Use warm compresses"
+        ],
+        "medications": [
+            "Saline nasal spray",
+            "Decongestants (e.g., Pseudoephedrine)",
+            "Nasal corticosteroids",
+            "Antibiotics (if bacterial)",
+            "Acetaminophen for pain"
+        ],
+        "diets": [
+            "Spicy foods (hot peppers, horseradish)",
+            "Hydration (water, herbal teas)",
+            "Vitamin C-rich foods (oranges, strawberries)",
+            "Warm teas (ginger, chamomile)",
+            "Avoid processed sugars"
+        ],
+        "workouts": [
+            "Nasal breathing exercises: Help open airways",
+            "Gentle yoga: Promotes drainage",
+            "Walking: Low intensity, improves circulation",
+            "Avoid cold-weather workouts: Prevent sinus aggravation"
+        ]
+    },
+    "cornea infection": {
+        "description": "Cornea infection (keratitis) is an infection of the transparent front part of the eye, usually caused by bacteria, fungi, or viruses, leading to eye pain, redness, blurred vision, and light sensitivity.",
+        "risk_score": 35,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid touching eyes",
+            "Use prescribed eye drops",
+            "Wear sunglasses",
+            "Don\u2019t share towels or cosmetics"
+        ],
+        "medications": [
+            "Antibiotic eye drops (e.g., Ciprofloxacin)",
+            "Antiviral eye drops (e.g., Ganciclovir)",
+            "Antifungal drops (e.g., Natamycin)",
+            "Lubricant eye drops",
+            "Steroids (in selected cases)"
+        ],
+        "diets": [
+            "Vitamin A-rich foods (carrots, sweet potatoes, spinach)",
+            "Zinc-rich foods (pumpkin seeds, beef)",
+            "Hydration (water)",
+            "Avoid alcohol and smoking",
+            "Omega-3-rich foods (flaxseed, salmon)"
+        ],
+        "workouts": [
+            "Rest the eyes: Avoid screen-heavy workouts",
+            "Gentle walking: Safe and non-straining",
+            "Indoor stretching: Limits light exposure",
+            "Avoid swimming: Prevent waterborne pathogens"
+        ]
+    },
+    "marijuana abuse": {
+        "description": "Marijuana abuse refers to the excessive or harmful use of cannabis, which can lead to cognitive impairment, altered judgment, addiction, and long-term mental health issues.",
+        "risk_score": 40,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid peer pressure",
+            "Seek counseling",
+            "Build healthy habits",
+            "Avoid triggering environments"
+        ],
+        "medications": [
+            "Behavioral therapy",
+            "CBT",
+            "Motivational enhancement therapy",
+            "No FDA-approved medications",
+            "Support groups (e.g., NA)"
+        ],
+        "diets": [
+            "Hydration (water, herbal teas)",
+            "Omega-3s for brain health (walnuts, flaxseeds)",
+            "Foods rich in B vitamins (eggs, poultry, leafy greens)",
+            "Antioxidant-rich foods (berries, nuts)",
+            "Limit processed foods"
+        ],
+        "workouts": [
+            "Cardio workouts: Boost dopamine and mood",
+            "Yoga: Improve focus and reduce cravings",
+            "Strength training: Rebuild physical health",
+            "Group activities: Enhance social motivation and discipline"
+        ]
+    },
+    "bursitis": {
+        "description": "Bursitis is inflammation of the bursae\u2014small fluid-filled sacs that cushion bones and joints\u2014causing joint pain, swelling, and limited movement, often from repetitive motion or pressure.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Rest the affected joint",
+            "Apply ice packs",
+            "Use joint support",
+            "Avoid repetitive strain"
+        ],
+        "medications": [
+            "NSAIDs (e.g., Ibuprofen)",
+            "Corticosteroid injections",
+            "Ice packs",
+            "Physical therapy",
+            "Antibiotics (if septic bursitis)"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (turmeric, ginger, berries)",
+            "Omega-3 fatty acids (salmon, chia seeds)",
+            "Vitamin C (bell peppers, citrus fruits)",
+            "Hydration",
+            "Avoid processed and fried foods"
+        ],
+        "workouts": [
+            "Gentle range-of-motion exercises: Prevent joint stiffness",
+            "Low-impact cardio: Like swimming or cycling",
+            "Stretching: Keep affected areas flexible",
+            "Avoid pressure on joints: Use proper form and padding"
+        ]
+    },
+    "actinic keratosis": {
+        "description": "Actinic keratosis is a rough, scaly patch on the skin caused by prolonged sun exposure, and is considered a precancerous condition that can develop into squamous cell carcinoma.",
+        "risk_score": 20,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid sun exposure",
+            "Use broad-spectrum sunscreen",
+            "Wear protective clothing",
+            "See dermatologist regularly"
+        ],
+        "medications": [
+            "Topical 5-fluorouracil",
+            "Imiquimod cream",
+            "Diclofenac gel",
+            "Cryotherapy",
+            "Photodynamic therapy"
+        ],
+        "diets": [
+            "Antioxidant-rich foods (berries, spinach, nuts)",
+            "Vitamin E-rich foods (almonds, sunflower seeds)",
+            "Omega-3 fatty acids (salmon, flaxseeds)",
+            "Green tea",
+            "Avoid excessive sun exposure"
+        ],
+        "workouts": [
+            "Indoor workouts: Avoid sun exposure",
+            "Gentle stretching: Maintain skin comfort",
+            "Low-sweat activities: Prevent skin irritation",
+            "Walking in shaded areas: If outdoor movement needed"
+        ]
+    },
+    "chronic obstructive pulmonary disease (copd)": {
+        "description": "COPD is a group of progressive lung diseases, including emphysema and chronic bronchitis, characterized by airflow limitation, coughing, wheezing, and shortness of breath.",
+        "risk_score": 0,
+        "severity_level": "Unknown",
+        "surgery_needed": "Unknown",
+        "emergency": "Unknown",
+        "probability_death_range": "Unknown",
+        "precautions": [],
+        "medications": [
+            "Bronchodilators (e.g., Salbutamol)",
+            "Inhaled corticosteroids",
+            "Phosphodiesterase-4 inhibitors (e.g., Roflumilast)",
+            "Oxygen therapy",
+            "Antibiotics during exacerbations"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (turmeric, ginger, berries)",
+            "Omega-3 fatty acids (wild salmon, walnuts)",
+            "High-protein foods (chicken, beans)",
+            "Vitamin C-rich foods (oranges, broccoli)",
+            "Hydration"
+        ],
+        "workouts": [
+            "Pursed-lip breathing: Improve oxygen use",
+            "Walking: Build endurance safely",
+            "Stationary biking: Low strain on lungs",
+            "Pulmonary rehabilitation exercises: Doctor-guided regimens"
+        ]
+    },
+    "spondylosis": {
+        "description": "Spondylosis is a degenerative condition affecting the spine due to aging, resulting in stiffness, pain, and reduced mobility due to wear and tear on spinal discs and joints.",
+        "risk_score": 20,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Maintain good posture",
+            "Exercise regularly",
+            "Use ergonomic chairs",
+            "Avoid lifting heavy weights"
+        ],
+        "medications": [
+            "NSAIDs (e.g., Naproxen)",
+            "Muscle relaxants",
+            "Physical therapy",
+            "Epidural steroid injections",
+            "Surgery in severe cases"
+        ],
+        "diets": [
+            "Calcium-rich foods (milk, cheese, fortified plant milk)",
+            "Vitamin D-rich foods (egg yolk, fortified cereals)",
+            "Anti-inflammatory foods (turmeric, leafy greens)",
+            "Magnesium sources (nuts, seeds)",
+            "Omega-3 fatty acids (flaxseeds, fish)"
+        ],
+        "workouts": [
+            "Neck and back stretches: Improve mobility",
+            "Posture correction exercises: Reduce strain",
+            "Tai chi or yoga: Low-impact balance and movement",
+            "Avoid high-impact sports: Prevent joint stress"
+        ]
+    },
+    "injury to the arm": {
+        "description": "Injury to the arm refers to damage to muscles, bones, ligaments, or skin in the arm area from trauma, leading to pain, swelling, bruising, or limited movement.",
+        "risk_score": 30,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Immobilize the arm",
+            "Apply cold compress",
+            "Elevate the arm",
+            "Seek medical care if swelling"
+        ],
+        "medications": [
+            "Pain relievers (e.g., Acetaminophen)",
+            "Cold compress",
+            "Immobilization/splinting",
+            "Antibiotics (if open wound)",
+            "Physical therapy"
+        ],
+        "diets": [
+            "Protein-rich foods (chicken, eggs, legumes)",
+            "Vitamin C-rich foods (citrus fruits, strawberries)",
+            "Zinc sources (beef, pumpkin seeds)",
+            "Hydration",
+            "Anti-inflammatory foods (turmeric, ginger)"
+        ],
+        "workouts": [
+            "Physical therapy: Guided recovery exercises",
+            "Range-of-motion drills: Regain flexibility",
+            "Isometric strengthening: Build muscles without movement",
+            "Avoid overuse: Prioritize rest and pacing"
+        ]
+    },
+    "complex regional pain syndrome": {
+        "description": "Complex regional pain syndrome (CRPS) is a chronic pain condition usually affecting a limb after injury, with symptoms including burning pain, swelling, and sensitivity to touch.",
+        "risk_score": 50,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Follow physical therapy",
+            "Manage stress",
+            "Take prescribed medication",
+            "Avoid injury to the affected limb"
+        ],
+        "medications": [
+            "Gabapentin",
+            "Amitriptyline",
+            "Physical therapy",
+            "Corticosteroids",
+            "Nerve blocks"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (turmeric, berries, leafy greens)",
+            "Omega-3 fatty acids (salmon, walnuts)",
+            "Magnesium-rich foods (spinach, almonds)",
+            "Vitamin D-rich foods (fortified milk, egg yolks)",
+            "Avoid processed sugars and alcohol"
+        ],
+        "workouts": [
+            "Gentle stretching: Prevent contractures",
+            "Desensitization exercises: Rebuild nerve tolerance",
+            "Mirror therapy: Improve brain-muscle coordination",
+            "Aqua therapy: Low-pain water exercises"
+        ]
+    },
+    "injury to the trunk": {
+        "description": "Injury to the trunk includes trauma to the chest, abdomen, or back areas, possibly involving internal organs, muscles, or bones, and can range from minor bruises to serious internal damage.",
+        "risk_score": 45,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Apply ice or heat",
+            "Rest adequately",
+            "Use support belts if advised",
+            "Avoid strenuous activity"
+        ],
+        "medications": [
+            "Pain relievers (e.g., Ibuprofen)",
+            "Ice/heat therapy",
+            "Muscle relaxants",
+            "Wound care (if external)",
+            "Physiotherapy"
+        ],
+        "diets": [
+            "High-protein foods (tofu, lean meats)",
+            "Vitamin C-rich foods (bell peppers, kiwi)",
+            "Zinc sources (shellfish, nuts)",
+            "Hydration",
+            "Anti-inflammatory spices (ginger, turmeric)"
+        ],
+        "workouts": [
+            "Core stability workouts: Strengthen abdomen/back",
+            "Breathing exercises: Ease pain and tension",
+            "Walking: Gentle activity for circulation",
+            "Avoid twisting movements: Reduce risk of re-injury"
+        ]
+    },
+    "vulvodynia": {
+        "description": "Vulvodynia is chronic pain or discomfort around the opening of the vagina (vulva) with no identifiable cause, often described as burning, stinging, or irritation.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Wear loose cotton clothing",
+            "Avoid scented products",
+            "Use prescribed creams",
+            "Manage stress levels"
+        ],
+        "medications": [
+            "Topical Lidocaine",
+            "Tricyclic antidepressants (e.g., Amitriptyline)",
+            "Gabapentin",
+            "Physical therapy",
+            "Cognitive behavioral therapy"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (blueberries, leafy greens)",
+            "Probiotics (yogurt, kimchi)",
+            "Omega-3 fatty acids (flaxseeds, salmon)",
+            "Vitamin E-rich foods (nuts, seeds)",
+            "Avoid irritants and processed foods"
+        ],
+        "workouts": [
+            "Pelvic floor relaxation: Avoid tightness",
+            "Gentle yoga: Reduce pelvic pain",
+            "Breathing techniques: Help with stress-linked flares",
+            "Avoid bike riding: Prevent pressure on sensitive area"
+        ]
+    },
+    "concussion": {
+        "description": "A concussion is a mild traumatic brain injury caused by a blow to the head or body, resulting in temporary loss of brain function, such as confusion, memory loss, or dizziness.",
+        "risk_score": 40,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Rest and avoid screens",
+            "Avoid physical activity",
+            "Monitor symptoms",
+            "Follow up with neurologist"
+        ],
+        "medications": [
+            "Rest",
+            "Acetaminophen (avoid NSAIDs early)",
+            "Cognitive rest",
+            "Hydration",
+            "Gradual return to activities"
+        ],
+        "diets": [
+            "Omega-3 fatty acids (chia seeds, salmon)",
+            "Antioxidant-rich foods (blueberries, dark chocolate)",
+            "Protein-rich foods (eggs, chicken)",
+            "Hydration",
+            "B vitamins (whole grains, leafy greens)"
+        ],
+        "workouts": [
+            "Rest: Most important early step",
+            "Gentle stretching: After symptoms improve",
+            "Walking: Light activity to reintroduce movement",
+            "Avoid screens and bright lights: Limit visual strain"
+        ]
+    },
+    "hypoglycemia": {
+        "description": "Hypoglycemia is a condition characterized by abnormally low blood sugar levels, often causing shakiness, sweating, confusion, irritability, or fainting, common in diabetics on insulin.",
+        "risk_score": 60,
+        "severity_level": "High",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Eat small frequent meals",
+            "Carry glucose tablets",
+            "Avoid skipping meals",
+            "Monitor blood sugar levels"
+        ],
+        "medications": [
+            "Glucose tablets",
+            "Juice or sugary snacks",
+            "Glucagon injection (emergency)",
+            "Adjust insulin or diabetes medication",
+            "Frequent meals"
+        ],
+        "diets": [
+            "Complex carbohydrates (whole grains, legumes)",
+            "Protein with every meal (eggs, nuts)",
+            "Avoid sugary snacks",
+            "Frequent small meals",
+            "Fiber-rich foods (vegetables, fruits)"
+        ],
+        "workouts": [
+            "Walking: Helps stabilize blood sugar",
+            "Strength training: Builds muscle mass to support glucose use",
+            "Avoid fasted workouts: Always eat before",
+            "Frequent breaks: Monitor sugar levels during activity"
+        ]
+    },
+    "hiatal hernia": {
+        "description": "A hiatal hernia occurs when the upper part of the stomach pushes through the diaphragm into the chest cavity, often causing symptoms like heartburn, reflux, and chest pain.",
+        "risk_score": 25,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Eat small frequent meals",
+            "Avoid lying down after eating",
+            "Avoid spicy food",
+            "Maintain healthy weight"
+        ],
+        "medications": [
+            "Antacids",
+            "Proton Pump Inhibitors (e.g., Omeprazole)",
+            "H2 Blockers (e.g., Ranitidine)",
+            "Prokinetic agents",
+            "Surgery (in severe cases)"
+        ],
+        "diets": [
+            "Small, frequent meals",
+            "Avoid spicy foods and caffeine",
+            "High-fiber foods (oats, vegetables)",
+            "Lean proteins (chicken, fish)",
+            "Avoid fatty and fried foods"
+        ],
+        "workouts": [
+            "Avoid crunches: Prevent abdominal pressure",
+            "Gentle walking or cycling: Support digestion",
+            "Breathing exercises: Improve diaphragm control",
+            "Upright posture: During and after exercise"
+        ]
+    },
+    "allergy": {
+        "description": "An allergy is an overreaction of the immune system to substances like pollen, food, or medications, causing symptoms like sneezing, itching, rash, or anaphylaxis.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Apply calamine",
+            "Cover area with bandage",
+            "Use ice to compress itching",
+            "Avoid known allergens"
+        ],
+        "medications": [
+            "Antihistamines (e.g., Loratadine)",
+            "Decongestants (e.g., Pseudoephedrine)",
+            "Epinephrine auto-injectors",
+            "Corticosteroids",
+            "Immunotherapy (allergy shots)"
+        ],
+        "diets": [
+            "Elimination diet (avoid allergen foods)",
+            "Omega-3 fatty acids (salmon, flaxseeds)",
+            "Vitamin C-rich foods (oranges, bell peppers)",
+            "Quercetin-rich foods (apples, onions)",
+            "Probiotics (yogurt, kefir)"
+        ],
+        "workouts": [
+            "Indoor workouts: Avoid pollen and triggers",
+            "Yoga: Calms body and immune system",
+            "Swimming in clean pools: Clears airways",
+            "Avoid exercising in high pollution: Protect respiratory health"
+        ]
+    },
+    "acute bronchospasm": {
+        "description": "Acute bronchospasm is a sudden constriction of the muscles in the walls of the bronchioles, often triggered by asthma or allergens, causing wheezing and difficulty breathing.",
+        "risk_score": 55,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Avoid cold air",
+            "Use bronchodilator inhaler",
+            "Avoid allergens",
+            "Monitor breathing patterns"
+        ],
+        "medications": [
+            "Short-acting beta-agonists (e.g., Albuterol)",
+            "Anticholinergics",
+            "Systemic corticosteroids",
+            "Oxygen therapy",
+            "Magnesium sulfate (in severe cases)"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (ginger, turmeric)",
+            "Omega-3 fatty acids (wild salmon, chia seeds)",
+            "Vitamin C-rich foods (citrus fruits)",
+            "Hydration",
+            "Avoid dairy if mucus increases"
+        ],
+        "workouts": [
+            "Rest until stable: Avoid exertion during flare-ups",
+            "Breathing exercises: Strengthen respiratory muscles",
+            "Gentle stretching: Promote oxygen flow",
+            "Indoor walking: In controlled environments"
+        ]
+    },
+    "degenerative disc disease": {
+        "description": "Degenerative disc disease is a condition where spinal discs break down over time, leading to back pain, reduced flexibility, and sometimes nerve compression.",
+        "risk_score": 20,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Maintain healthy weight",
+            "Avoid lifting heavy items",
+            "Engage in back exercises",
+            "Use lumbar support"
+        ],
+        "medications": [
+            "NSAIDs",
+            "Physical therapy",
+            "Muscle relaxants",
+            "Steroid injections",
+            "Surgery (e.g., spinal fusion in advanced cases)"
+        ],
+        "diets": [
+            "Calcium-rich foods (milk, cheese)",
+            "Vitamin D-rich foods (fatty fish, egg yolk)",
+            "Anti-inflammatory foods (berries, leafy greens)",
+            "Magnesium sources (pumpkin seeds, almonds)",
+            "Protein-rich foods (chicken, legumes)"
+        ],
+        "workouts": [
+            "Back stretches: Increase flexibility",
+            "Core strengthening: Reduce spinal pressure",
+            "Low-impact aerobics: Walking or elliptical",
+            "Avoid heavy lifting: Prevent worsening symptoms"
+        ]
+    },
+    "pain after an operation": {
+        "description": "Pain after an operation (postoperative pain) is discomfort or soreness at the surgical site, which may be due to tissue injury, inflammation, or healing processes.",
+        "risk_score": 30,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Take pain meds as prescribed",
+            "Avoid physical strain",
+            "Keep surgical area clean",
+            "Attend follow-up appointments"
+        ],
+        "medications": [
+            "Acetaminophen",
+            "Opioids (e.g., Morphine, Tramadol)",
+            "NSAIDs",
+            "Local anesthetics",
+            "Nerve blocks"
+        ],
+        "diets": [
+            "High-protein foods (eggs, fish)",
+            "Vitamin C-rich foods (kiwi, strawberries)",
+            "Zinc-rich foods (beef, nuts)",
+            "Anti-inflammatory foods (turmeric, ginger)",
+            "Hydration"
+        ],
+        "workouts": [
+            "Guided physiotherapy: Safe recovery progression",
+            "Deep breathing: Prevent lung complications post-surgery",
+            "Slow walking: Improves circulation",
+            "Avoid high-intensity activity: Allow full healing"
+        ]
+    },
+    "injury to the leg": {
+        "description": "Injury to the leg includes trauma to any part of the leg such as the thigh, knee, shin, or ankle, potentially involving muscles, bones, or ligaments.",
+        "risk_score": 30,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Elevate the leg",
+            "Apply ice packs",
+            "Avoid putting weight",
+            "Use crutches if advised"
+        ],
+        "medications": [
+            "Pain relievers",
+            "Compression bandages",
+            "Crutches or brace",
+            "Physical therapy",
+            "Antibiotics (if open wound)"
+        ],
+        "diets": [
+            "Protein-rich foods (lean meats, beans)",
+            "Vitamin C-rich foods (oranges, strawberries)",
+            "Zinc-rich foods (shellfish, pumpkin seeds)",
+            "Anti-inflammatory spices (ginger, turmeric)",
+            "Hydration"
+        ],
+        "workouts": [
+            "Non-weight-bearing exercises: Like swimming or seated stretches",
+            "Range-of-motion: Prevent stiffness",
+            "Strength training: After healing starts",
+            "Balance exercises: Reduce fall risk later"
+        ]
+    },
+    "gout": {
+        "description": "Gout is a form of inflammatory arthritis caused by buildup of uric acid crystals in joints, leading to sudden, severe pain, redness, and swelling, often in the big toe.",
+        "risk_score": 25,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid purine-rich food",
+            "Stay hydrated",
+            "Limit alcohol intake",
+            "Take medication as prescribed"
+        ],
+        "medications": [
+            "Colchicine",
+            "NSAIDs (e.g., Indomethacin)",
+            "Allopurinol",
+            "Febuxostat",
+            "Corticosteroids"
+        ],
+        "diets": [
+            "Low-purine foods (vegetables, whole grains)",
+            "Cherries and berries",
+            "Hydration",
+            "Limit red meat and seafood",
+            "Avoid alcohol and sugary drinks"
+        ],
+        "workouts": [
+            "Low-impact exercises: Like cycling or swimming",
+            "Joint mobility drills: Keep joints flexible",
+            "Avoid intense weight-bearing: During flare-ups",
+            "Stretching: Reduce stiffness in affected areas"
+        ]
+    },
+    "otitis media": {
+        "description": "Otitis media is a middle ear infection that commonly affects children, causing ear pain, fever, irritability, and sometimes fluid discharge from the ear.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid water entering ears",
+            "Take antibiotics as prescribed",
+            "Use warm compress",
+            "Follow up with ENT specialist"
+        ],
+        "medications": [
+            "Amoxicillin",
+            "Cefdinir",
+            "Acetaminophen for pain",
+            "Decongestants",
+            "Tympanostomy (if recurrent)"
+        ],
+        "diets": [
+            "Hydrating fluids (water, herbal teas)",
+            "Vitamin C-rich foods (citrus fruits)",
+            "Probiotics (yogurt, kefir)",
+            "Avoid dairy if it increases mucus",
+            "Anti-inflammatory foods (ginger, turmeric)"
+        ],
+        "workouts": [
+            "Rest: Especially during acute phase",
+            "Avoid swimming: Prevent water exposure to ears",
+            "Light walking: If energy permits",
+            "Neck stretches: Relieve ear canal pressure"
+        ]
+    },
+    "acute kidney injury": {
+        "description": "Acute kidney injury (AKI) is a sudden loss of kidney function due to illness, injury, or toxins, leading to buildup of waste products in the blood.",
+        "risk_score": 90,
+        "severity_level": "Critical",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "20-30%",
+        "precautions": [
+            "Avoid NSAIDs",
+            "Stay hydrated",
+            "Monitor fluid intake",
+            "Follow renal diet plan"
+        ],
+        "medications": [
+            "IV fluids",
+            "Diuretics (e.g., Furosemide)",
+            "Electrolyte management",
+            "Discontinue nephrotoxic drugs",
+            "Dialysis (if severe)"
+        ],
+        "diets": [
+            "Low-protein diet (consult doctor)",
+            "Limit sodium (avoid processed foods)",
+            "Potassium regulation (bananas, potatoes \u2013 based on medical advice)",
+            "Hydration monitoring",
+            "Avoid high-phosphorus foods (dairy, nuts)"
+        ],
+        "workouts": [
+            "Gentle activity: Like walking during recovery",
+            "Avoid dehydration: Prioritize fluids with workouts",
+            "Strength training: Only when kidney function stabilizes",
+            "Workouts under supervision: Monitor vital signs"
+        ]
+    },
+    "threatened pregnancy": {
+        "description": "A threatened pregnancy refers to early pregnancy complications, such as vaginal bleeding or cramping, that may suggest a risk of miscarriage but with a still viable fetus.",
+        "risk_score": 50,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Take prescribed medications",
+            "Avoid stress and lifting heavy items",
+            "Get regular checkups",
+            "Rest as recommended"
+        ],
+        "medications": [
+            "Progesterone supplements",
+            "Folic acid",
+            "Bed rest (limited use)",
+            "IV fluids (if dehydrated)",
+            "Close monitoring with ultrasound"
+        ],
+        "diets": [
+            "Folic acid-rich foods (leafy greens, beans)",
+            "Iron-rich foods (red meat, lentils)",
+            "Hydration",
+            "Balanced diet with protein (chicken, fish)",
+            "Avoid alcohol, caffeine, and high-mercury fish"
+        ],
+        "workouts": [
+            "Modified bed rest: Based on doctor's advice",
+            "Breathing exercises: Reduce anxiety",
+            "Pelvic floor (Kegel) exercises: Safe for pelvic support",
+            "Avoid high-impact workouts: Prevent complications"
+        ]
+    },
+    "gum disease": {
+        "description": "Gum disease (periodontal disease) is an infection and inflammation of the gums and surrounding tissues, often caused by poor oral hygiene, leading to bleeding, receding gums, and tooth loss.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Maintain oral hygiene",
+            "Floss daily",
+            "Avoid smoking",
+            "Visit dentist regularly"
+        ],
+        "medications": [
+            "Antibacterial mouthwash (e.g., Chlorhexidine)",
+            "Scaling and root planing",
+            "Doxycycline",
+            "Fluoride toothpaste",
+            "Surgical interventions (if severe)"
+        ],
+        "diets": [
+            "Vitamin C-rich foods (citrus fruits, strawberries)",
+            "Calcium-rich foods (milk, yogurt)",
+            "Green tea",
+            "Avoid sugary and sticky foods",
+            "Omega-3 fatty acids (walnuts, flaxseeds)"
+        ],
+        "workouts": [
+            "Oral hygiene focus: Brush and floss regularly",
+            "Avoid sugary sports drinks: Prevent bacterial growth",
+            "Stay hydrated: Supports gum health",
+            "No specific physical activity restriction: Follow general wellness plan"
+        ]
+    },
+    "gastrointestinal hemorrhage": {
+        "description": "Gastrointestinal hemorrhage is bleeding that occurs anywhere along the digestive tract, often presenting as vomiting blood or black, tarry stools, and can be caused by ulcers, varices, or cancer.",
+        "risk_score": 80,
+        "severity_level": "Critical",
+        "surgery_needed": "Yes",
+        "emergency": "Yes",
+        "probability_death_range": "5-10%",
+        "precautions": [
+            "Avoid NSAIDs",
+            "Eat a soft bland diet",
+            "Limit alcohol",
+            "Follow up with GI specialist"
+        ],
+        "medications": [
+            "IV proton pump inhibitors (e.g., Pantoprazole)",
+            "Endoscopic hemostasis",
+            "Blood transfusion",
+            "Octreotide (for variceal bleeding)",
+            "Antibiotics (e.g., Ceftriaxone) if cirrhosis present"
+        ],
+        "diets": [
+            "Avoid spicy and acidic foods",
+            "Bland diet (bananas, rice, applesauce)",
+            "Hydration",
+            "Iron-rich foods post bleeding (spinach, beans)",
+            "Avoid alcohol and NSAIDs"
+        ],
+        "workouts": [
+            "Rest: Avoid strenuous activity during active bleeding",
+            "Breathing exercises: Manage stress on the digestive system",
+            "Gentle walking: Only after stabilization",
+            "Avoid abdominal strain: Prevent re-bleeding"
+        ]
+    },
+    "anxiety": {
+        "description": "Anxiety is a mental health condition characterized by excessive worry, nervousness, or fear that interferes with daily activities, often accompanied by physical symptoms like restlessness, sweating, or rapid heartbeat.",
+        "risk_score": 25,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Practice relaxation techniques",
+            "Avoid stimulants like caffeine",
+            "Maintain regular sleep",
+            "Seek counseling if needed"
+        ],
+        "medications": [
+            "SSRIs (e.g., Escitalopram)",
+            "SNRIs (e.g., Duloxetine)",
+            "Benzodiazepines (short-term use)",
+            "Buspirone",
+            "Cognitive Behavioral Therapy (CBT)"
+        ],
+        "diets": [
+            "Magnesium-rich foods (nuts, seeds)",
+            "Omega-3 fatty acids (salmon, chia seeds)",
+            "Vitamin B-complex foods (whole grains, eggs)",
+            "Probiotics (kimchi, yogurt)",
+            "Limit caffeine and sugar"
+        ],
+        "workouts": [
+            "Yoga: Combines movement and mindfulness",
+            "Breathing exercises: Control physiological symptoms",
+            "Walking in nature: Calms the mind",
+            "Tai chi: Improve mental and emotional balance"
+        ]
+    },
+    "conjunctivitis due to allergy": {
+        "description": "Allergic conjunctivitis is inflammation of the conjunctiva (eye lining) caused by allergens like pollen or dust, leading to red, itchy, watery eyes without infectious discharge.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid rubbing eyes",
+            "Use antihistamine drops",
+            "Keep environment clean",
+            "Avoid known allergens"
+        ],
+        "medications": [
+            "Antihistamine eye drops (e.g., Olopatadine)",
+            "Mast cell stabilizers (e.g., Ketotifen)",
+            "Artificial tears",
+            "Oral antihistamines",
+            "Cold compress"
+        ],
+        "diets": [
+            "Antihistamine-rich foods (quercetin in apples, onions)",
+            "Omega-3 fatty acids (salmon, flaxseeds)",
+            "Vitamin C-rich foods (citrus)",
+            "Hydration",
+            "Avoid allergens"
+        ],
+        "workouts": [
+            "Indoor exercises: Avoid allergens like pollen",
+            "Gentle yoga: Avoid face touching",
+            "Stretching: Avoid eye strain",
+            "Avoid swimming: Prevent eye irritation"
+        ]
+    },
+    "drug reaction": {
+        "description": "A drug reaction is an adverse response to a medication, ranging from mild rashes or stomach upset to severe allergic responses like Stevens-Johnson syndrome or anaphylaxis.",
+        "risk_score": 50,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Stop the drug immediately",
+            "Consult a doctor",
+            "Use antihistamines if prescribed",
+            "Monitor for worsening symptoms"
+        ],
+        "medications": [
+            "Discontinuation of offending drug",
+            "Antihistamines (e.g., Diphenhydramine)",
+            "Corticosteroids",
+            "Epinephrine (for anaphylaxis)",
+            "IV fluids and supportive care"
+        ],
+        "diets": [
+            "Balanced diet with antioxidants (berries, leafy greens)",
+            "Hydration",
+            "Avoid processed and allergenic foods",
+            "Vitamin C and E-rich foods (nuts, seeds, citrus)",
+            "Consult doctor for specific restrictions"
+        ],
+        "workouts": [
+            "Rest: While recovering from adverse reactions",
+            "Low-intensity movement: Once stabilized",
+            "Breathing exercises: Calm stress responses",
+            "Avoid sun exposure: If on photosensitive medications"
+        ]
+    },
+    "macular degeneration": {
+        "description": "Macular degeneration is an eye disorder that damages the macula, the part of the retina responsible for central vision, leading to blurred or loss of central vision, typically in older adults.",
+        "risk_score": 20,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Wear sunglasses",
+            "Eat leafy greens",
+            "Avoid smoking",
+            "Regular eye checkups"
+        ],
+        "medications": [
+            "Anti-VEGF injections (e.g., Ranibizumab, Aflibercept)",
+            "AREDS2 vitamin supplements",
+            "Photodynamic therapy",
+            "Laser therapy (rarely)",
+            "Low vision aids"
+        ],
+        "diets": [
+            "Vitamin A-rich foods (carrots, sweet potatoes)",
+            "Lutein and zeaxanthin foods (spinach, kale)",
+            "Omega-3 fatty acids (fish, walnuts)",
+            "Zinc-rich foods (pumpkin seeds, beef)",
+            "Antioxidant-rich foods (blueberries, citrus)"
+        ],
+        "workouts": [
+            "Balance training: Prevent falls due to vision changes",
+            "Walking: Improves circulation and eye health",
+            "Indoor cycling: Safe with limited vision",
+            "Avoid fast-paced movements: Prevent injuries"
+        ]
+    },
+    "pneumonia": {
+        "description": "Pneumonia is an infection of the lungs caused by bacteria, viruses, or fungi, resulting in cough, fever, chest pain, and difficulty breathing due to inflammation and fluid in the lungs.",
+        "risk_score": 70,
+        "severity_level": "High",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "1-5%",
+        "precautions": [
+            "Take full course of antibiotics",
+            "Avoid smoking",
+            "Rest adequately",
+            "Stay hydrated"
+        ],
+        "medications": [
+            "Antibiotics (e.g., Azithromycin, Ceftriaxone)",
+            "Antivirals (e.g., Oseltamivir if viral)",
+            "Expectorants",
+            "Fever reducers (e.g., Acetaminophen)",
+            "Oxygen therapy if needed"
+        ],
+        "diets": [
+            "Hydrating fluids (water, herbal teas)",
+            "Protein-rich foods (chicken, beans)",
+            "Vitamin C-rich foods (oranges, broccoli)",
+            "Avoid dairy if mucus worsens",
+            "Anti-inflammatory foods (turmeric, ginger)"
+        ],
+        "workouts": [
+            "Rest: Critical during acute infection",
+            "Breathing exercises: Improve lung expansion",
+            "Gentle walking: After fever subsides",
+            "Gradual reintroduction to physical activity: To build endurance"
+        ]
+    },
+    "vaginal cyst": {
+        "description": "A vaginal cyst is a fluid-filled sac that forms along the vaginal wall, often benign and asymptomatic, but can sometimes cause discomfort or pain if enlarged or infected.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Maintain genital hygiene",
+            "Avoid tight clothing",
+            "Do warm sitz baths",
+            "Follow doctor\u2019s advice"
+        ],
+        "medications": [
+            "Warm compress",
+            "Sitz bath",
+            "Antibiotics (if infected)",
+            "Surgical drainage (if large or recurrent)",
+            "Analgesics for pain"
+        ],
+        "diets": [
+            "Probiotics (yogurt, kefir)",
+            "Anti-inflammatory foods (berries, leafy greens)",
+            "Hydration",
+            "Avoid irritants and processed foods",
+            "Omega-3 fatty acids (salmon, flaxseeds)"
+        ],
+        "workouts": [
+            "Pelvic floor exercises: Support area and reduce discomfort",
+            "Avoid high-impact sports: Prevent irritation",
+            "Walking: Safe and light activity",
+            "Breathing exercises: Promote general relaxation"
+        ]
+    },
+    "carpal tunnel syndrome": {
+        "description": "Carpal tunnel syndrome is a condition caused by compression of the median nerve in the wrist, leading to numbness, tingling, and weakness in the hand and fingers.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Take frequent hand breaks",
+            "Use wrist splints",
+            "Avoid repetitive motions",
+            "Do stretching exercises"
+        ],
+        "medications": [
+            "Wrist splint",
+            "NSAIDs",
+            "Corticosteroid injections",
+            "Gabapentin (if nerve pain)",
+            "Surgical decompression (if severe)"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (turmeric, ginger)",
+            "Omega-3 fatty acids (chia seeds, salmon)",
+            "Magnesium-rich foods (spinach, almonds)",
+            "Vitamin B6-rich foods (bananas, poultry)",
+            "Avoid excess caffeine and sugar"
+        ],
+        "workouts": [
+            "Wrist stretching: Relieve nerve pressure",
+            "Hand-strengthening exercises: Use putty or bands",
+            "Avoid repetitive strain: Modify activities",
+            "Yoga: Helps with posture and nerve health"
+        ]
+    },
+    "nose disorder": {
+        "description": "Nose disorders include structural or inflammatory issues such as deviated septum, nasal polyps, or rhinitis, causing congestion, breathing difficulty, or nosebleeds.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid nose picking",
+            "Keep nasal passages moist",
+            "Use saline sprays",
+            "Avoid irritants and allergens"
+        ],
+        "medications": [
+            "Nasal decongestants (e.g., Oxymetazoline)",
+            "Antihistamines",
+            "Saline nasal spray",
+            "Intranasal corticosteroids",
+            "Antibiotics (if bacterial infection)"
+        ],
+        "diets": [
+            "Hydration",
+            "Vitamin C-rich foods (citrus, strawberries)",
+            "Zinc-rich foods (meat, seeds)",
+            "Avoid allergens and irritants",
+            "Warm fluids and anti-inflammatory foods (ginger, honey)"
+        ],
+        "workouts": [
+            "Breathing techniques: Nasal breathing focus",
+            "Indoor cycling: Low impact on facial pressure",
+            "Avoid inversion poses: Prevent sinus pressure",
+            "Gentle cardio: Avoid dry, dusty air"
+        ]
+    },
+    "dental caries": {
+        "description": "Dental caries (tooth decay) is the destruction of tooth enamel due to acids produced by bacteria feeding on sugars, leading to cavities, tooth pain, and infection if untreated.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Brush twice daily",
+            "Limit sugar intake",
+            "Visit dentist regularly",
+            "Floss daily"
+        ],
+        "medications": [
+            "Fluoride toothpaste or gel",
+            "Dental fillings",
+            "Chlorhexidine mouth rinse",
+            "Analgesics for pain",
+            "Root canal therapy (if advanced)"
+        ],
+        "diets": [
+            "Calcium-rich foods (milk, cheese)",
+            "Vitamin D-rich foods (fatty fish, fortified cereals)",
+            "Limit sugary and sticky foods",
+            "Crunchy fruits and vegetables (apples, carrots)",
+            "Green tea"
+        ],
+        "workouts": [
+            "Hydration focus: Water during exercise to reduce acid",
+            "Avoid sugary drinks: During workouts",
+            "Regular workouts: Support overall oral health",
+            "No intense jaw activities: Prevent further damage"
+        ]
+    },
+    "hypertensive heart disease": {
+        "description": "Hypertensive heart disease includes conditions caused by chronic high blood pressure, such as heart failure, thickened heart muscle, or coronary artery disease.",
+        "risk_score": 80,
+        "severity_level": "High",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "10-20%",
+        "precautions": [
+            "Reduce salt intake",
+            "Monitor blood pressure",
+            "Exercise regularly",
+            "Take antihypertensive medication"
+        ],
+        "medications": [
+            "ACE inhibitors (e.g., Lisinopril)",
+            "Beta-blockers (e.g., Metoprolol)",
+            "Diuretics (e.g., Furosemide)",
+            "Calcium channel blockers (e.g., Amlodipine)",
+            "Lifestyle modification"
+        ],
+        "diets": [
+            "Low-sodium diet (avoid processed foods)",
+            "Potassium-rich foods (bananas, sweet potatoes)",
+            "Omega-3 fatty acids (salmon, walnuts)",
+            "Whole grains (brown rice, oats)",
+            "Limit saturated fats (butter, fatty meats)"
+        ],
+        "workouts": [
+            "Walking: Low-impact and heart-friendly",
+            "Swimming: Great cardiovascular activity",
+            "Breathing techniques: Reduce stress-induced spikes",
+            "Avoid heavy lifting: Prevent blood pressure surges"
+        ]
+    },
+    "seasonal allergies (hay fever)": {
+        "description": "Seasonal allergies, or hay fever, are allergic reactions to airborne allergens like pollen, causing sneezing, nasal congestion, itchy eyes, and throat irritation, often during specific seasons.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Keep windows closed during high pollen",
+            "Shower after being outdoors",
+            "Use air purifier",
+            "Take antihistamines"
+        ],
+        "medications": [
+            "Oral antihistamines (e.g., Cetirizine)",
+            "Intranasal corticosteroids (e.g., Fluticasone)",
+            "Leukotriene receptor antagonists (e.g., Montelukast)",
+            "Nasal saline rinses",
+            "Allergy immunotherapy"
+        ],
+        "diets": [
+            "Quercetin-rich foods (onions, apples)",
+            "Vitamin C-rich foods (citrus fruits)",
+            "Omega-3 fatty acids (flaxseeds, fish)",
+            "Probiotics (yogurt, kimchi)",
+            "Avoid allergens"
+        ],
+        "workouts": [
+            "Indoor workouts: Avoid pollen exposure",
+            "Yoga: Manage immune and stress response",
+            "Treadmill walking: Allergy-safe cardio",
+            "Wear a mask outdoors: If walking outside"
+        ]
+    },
+    "fungal infection of the hair": {
+        "description": "Fungal infection of the hair, or tinea capitis, is a scalp infection caused by dermatophyte fungi, resulting in scaly patches, hair loss, and sometimes black dots or swelling.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Keep scalp dry and clean",
+            "Avoid sharing personal items",
+            "Use antifungal shampoo",
+            "Maintain proper hygiene"
+        ],
+        "medications": [
+            "Griseofulvin (oral)",
+            "Terbinafine (oral)",
+            "Ketoconazole shampoo",
+            "Selenium sulfide shampoo",
+            "Itraconazole"
+        ],
+        "diets": [
+            "Antifungal foods (garlic, coconut oil)",
+            "Probiotics (yogurt, kefir)",
+            "Vitamin E-rich foods (nuts, seeds)",
+            "Zinc-rich foods (beef, pumpkin seeds)",
+            "Avoid sugar and processed foods"
+        ],
+        "workouts": [
+            "Avoid shared gym equipment: Prevent spread",
+            "Indoor yoga: No sweat-heavy environments",
+            "Dry scalp after workouts: Prevent fungus growth",
+            "Low-sweat activities: Reduce moisture"
+        ]
+    },
+    "rectal disorder": {
+        "description": "Rectal disorders include conditions affecting the rectum such as hemorrhoids, fissures, or prolapse, often causing pain, bleeding, or difficulty during bowel movements.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Eat a high-fiber diet",
+            "Drink plenty of water",
+            "Avoid straining during bowel movements",
+            "Use sitz baths"
+        ],
+        "medications": [
+            "Hydrocortisone suppositories",
+            "Laxatives (e.g., Lactulose)",
+            "Fiber supplements",
+            "Sitz baths",
+            "Surgical intervention (e.g., hemorrhoidectomy if needed)"
+        ],
+        "diets": [
+            "High-fiber foods (whole grains, fruits, vegetables)",
+            "Hydration",
+            "Avoid spicy and processed foods",
+            "Probiotics (yogurt, sauerkraut)",
+            "Limit caffeine and alcohol"
+        ],
+        "workouts": [
+            "Walking: Supports digestion and circulation",
+            "Pelvic floor exercises: Strengthen rectal support",
+            "Avoid cycling: Prevent irritation",
+            "Gentle yoga: Focus on posture and breathing"
+        ]
+    },
+    "stye": {
+        "description": "A stye is a red, painful lump near the edge of the eyelid caused by a bacterial infection of an oil gland, often resolving on its own or with warm compresses.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Apply warm compress",
+            "Avoid touching or squeezing",
+            "Maintain eyelid hygiene",
+            "Discontinue eye makeup temporarily"
+        ],
+        "medications": [
+            "Warm compresses",
+            "Topical antibiotic ointment (e.g., Erythromycin)",
+            "Oral antibiotics (if spreading)",
+            "Pain relievers",
+            "Incision and drainage (if abscess forms)"
+        ],
+        "diets": [
+            "Vitamin A-rich foods (carrots, sweet potatoes)",
+            "Vitamin C-rich foods (citrus)",
+            "Hydration",
+            "Omega-3 fatty acids (salmon, flaxseeds)",
+            "Avoid eye irritants"
+        ],
+        "workouts": [
+            "Avoid swimming: Prevent bacteria exposure",
+            "Low-intensity workouts: No eye rubbing or strain",
+            "Clean face post-exercise: Prevent infection",
+            "Avoid hot yoga: May worsen swelling"
+        ]
+    },
+    "heart attack": {
+        "description": "A heart attack (myocardial infarction) occurs when blood flow to part of the heart is blocked, leading to chest pain, shortness of breath, nausea, and potentially life-threatening damage to heart muscle.",
+        "risk_score": 95,
+        "severity_level": "Critical",
+        "surgery_needed": "Yes",
+        "emergency": "Yes",
+        "probability_death_range": "20-30%",
+        "precautions": [
+            "Take prescribed medication",
+            "Avoid stress",
+            "Eat heart-healthy diet",
+            "Monitor cholesterol and BP"
+        ],
+        "medications": [
+            "Aspirin",
+            "Nitroglycerin",
+            "Beta-blockers (e.g., Metoprolol)",
+            "ACE inhibitors",
+            "Thrombolytics or PCI (percutaneous coronary intervention)"
+        ],
+        "diets": [
+            "Low-sodium diet (vegetables, fresh fruits)",
+            "Omega-3 fatty acids (salmon, flaxseeds)",
+            "Whole grains (brown rice, oats)",
+            "Lean proteins (chicken, beans)",
+            "Limit saturated and trans fats (processed foods, fried foods)"
+        ],
+        "workouts": [
+            "Cardiac rehabilitation: Doctor-supervised program",
+            "Walking: Most recommended early-stage workout",
+            "Stationary cycling: Low-impact cardio",
+            "Avoid high-intensity training: Until medically cleared"
+        ]
+    },
+    "obstructive sleep apnea (osa)": {
+        "description": "OSA is a sleep disorder where the throat muscles intermittently relax and block the airway, causing repeated pauses in breathing during sleep and leading to poor rest and fatigue.",
+        "risk_score": 50,
+        "severity_level": "Medium",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Maintain healthy weight",
+            "Use CPAP machine if prescribed",
+            "Avoid alcohol before bedtime",
+            "Sleep on your side"
+        ],
+        "medications": [
+            "CPAP (Continuous Positive Airway Pressure)",
+            "Weight loss",
+            "Mandibular advancement device",
+            "Modafinil (for residual sleepiness)",
+            "Surgery (e.g., UPPP, if indicated)"
+        ],
+        "diets": [
+            "Weight management diet (calorie control)",
+            "Avoid alcohol and sedatives",
+            "High-fiber foods (whole grains, fruits)",
+            "Avoid heavy meals before bedtime",
+            "Hydration"
+        ],
+        "workouts": [
+            "Weight management exercises: Walking, swimming",
+            "Breathing training: Strengthen airway muscles",
+            "Yoga: Improve breathing and sleep quality",
+            "Avoid late-night workouts: Prevent sleep disruption"
+        ]
+    },
+    "psoriasis": {
+        "description": "Psoriasis is a chronic autoimmune skin condition causing rapid skin cell growth that results in thick, scaly, red patches, often on the elbows, knees, or scalp.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Keep skin moisturized",
+            "Avoid triggers like stress",
+            "Use prescribed creams",
+            "Avoid scratching"
+        ],
+        "medications": [
+            "Topical corticosteroids",
+            "Vitamin D analogs (e.g., Calcipotriol)",
+            "Methotrexate",
+            "Biologics (e.g., Adalimumab)",
+            "Phototherapy (UVB)"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (turmeric, ginger, berries)",
+            "Omega-3 fatty acids (salmon, walnuts)",
+            "Vitamin D-rich foods (egg yolk, fortified cereals)",
+            "Avoid gluten if sensitive",
+            "Hydration"
+        ],
+        "workouts": [
+            "Swimming in saltwater: May soothe skin",
+            "Moderate aerobic activity: Supports immune system",
+            "Stretching and yoga: Gentle on skin",
+            "Avoid hot/sweaty environments: Prevent flare-ups"
+        ]
+    },
+    "arthritis of the hip": {
+        "description": "Arthritis of the hip involves inflammation and degeneration of the hip joint cartilage, leading to pain, stiffness, and reduced mobility, commonly due to osteoarthritis.",
+        "risk_score": 30,
+        "severity_level": "Low",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Do low-impact exercises",
+            "Use walking aids if needed",
+            "Maintain healthy weight",
+            "Take anti-inflammatory medication"
+        ],
+        "medications": [
+            "NSAIDs",
+            "Corticosteroid injections",
+            "Physical therapy",
+            "Glucosamine supplements",
+            "Hip replacement surgery (in advanced cases)"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (olive oil, turmeric, berries)",
+            "Omega-3 fatty acids (fish, flaxseeds)",
+            "Calcium-rich foods (dairy, leafy greens)",
+            "Vitamin D-rich foods (fortified milk, egg yolk)",
+            "Maintain healthy weight diet"
+        ],
+        "workouts": [
+            "Water aerobics: Low joint impact",
+            "Stretching: Maintain hip mobility",
+            "Walking with support: Use cane if needed",
+            "Strength training: Build support muscles around joint"
+        ]
+    },
+    "sickle cell crisis": {
+        "description": "Sickle cell crisis is a painful episode in people with sickle cell disease, where misshapen red blood cells block blood flow, causing severe pain, fatigue, and potential organ damage.",
+        "risk_score": 75,
+        "severity_level": "High",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "1-5%",
+        "precautions": [
+            "Stay hydrated",
+            "Avoid extreme temperatures",
+            "Prevent infections",
+            "Take prescribed medication regularly"
+        ],
+        "medications": [
+            "Hydroxyurea",
+            "Folic acid",
+            "Pain management (e.g., Morphine)",
+            "IV fluids",
+            "Blood transfusions (if needed)"
+        ],
+        "diets": [
+            "Folate-rich foods (leafy greens, legumes)",
+            "Hydrating fluids (water, herbal teas)",
+            "Iron-rich foods (lean meats, beans)",
+            "Vitamin B6-rich foods (bananas, poultry)",
+            "Balanced protein intake"
+        ],
+        "workouts": [
+            "Rest: Avoid physical stress during crisis",
+            "Hydration focus: Essential during and after workouts",
+            "Low-intensity stretching: Once stable",
+            "Avoid high altitudes: Prevent oxygen drop"
+        ]
+    },
+    "otitis externa (swimmer's ear)": {
+        "description": "Otitis externa is an infection of the outer ear canal, often due to trapped water and bacteria, leading to ear pain, itching, swelling, and discharge.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Dry ears after swimming",
+            "Avoid inserting objects into ears",
+            "Use prescribed ear drops",
+            "Avoid dirty water bodies"
+        ],
+        "medications": [
+            "Topical antibiotic ear drops (e.g., Ciprofloxacin + Hydrocortisone)",
+            "Acidifying drops (e.g., Acetic acid)",
+            "Analgesics",
+            "Ear wick for deep infections",
+            "Avoid water exposure"
+        ],
+        "diets": [
+            "Hydration",
+            "Avoid irritants and allergens",
+            "Vitamin C-rich foods (citrus fruits, bell peppers)",
+            "Anti-inflammatory foods (turmeric, ginger)",
+            "Probiotics (yogurt, kefir)"
+        ],
+        "workouts": [
+            "Avoid swimming: Until healed",
+            "Walking: Gentle, safe movement",
+            "Indoor cycling: Avoid moisture exposure",
+            "Protect ears: Use dry earplugs during workouts"
+        ]
+    },
+    "acute bronchiolitis": {
+        "description": "Acute bronchiolitis is a common lower respiratory tract infection in infants, usually caused by RSV, leading to wheezing, coughing, and difficulty breathing.",
+        "risk_score": 40,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Keep child hydrated",
+            "Use humidifier",
+            "Avoid exposure to smoke",
+            "Monitor breathing"
+        ],
+        "medications": [
+            "Supportive care",
+            "Nasal suctioning",
+            "Saline nebulization",
+            "Oxygen therapy (if hypoxic)",
+            "Antipyretics (e.g., Paracetamol)"
+        ],
+        "diets": [
+            "Hydration (water, herbal teas)",
+            "Vitamin C-rich foods (oranges, strawberries)",
+            "Protein-rich foods (chicken, beans)",
+            "Avoid dairy if mucus increases",
+            "Anti-inflammatory foods (ginger, turmeric)"
+        ],
+        "workouts": [
+            "Rest during illness: Avoid all exertion",
+            "Breathing therapy: Rebuild lung strength",
+            "Light walking: Only after full recovery",
+            "Avoid dusty or polluted areas: Protect airways"
+        ]
+    },
+    "pyogenic skin infection": {
+        "description": "A pyogenic skin infection is a bacterial infection of the skin that produces pus, such as abscesses, boils, or cellulitis, often caused by Staphylococcus aureus.",
+        "risk_score": 20,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Keep wound clean and dry",
+            "Avoid scratching",
+            "Take prescribed antibiotics",
+            "Cover infected area"
+        ],
+        "medications": [
+            "Oral antibiotics (e.g., Cephalexin, Clindamycin)",
+            "Topical antibiotics (e.g., Mupirocin)",
+            "Incision and drainage",
+            "Antiseptic cleansing",
+            "Pain management"
+        ],
+        "diets": [
+            "Protein-rich foods (lean meat, eggs)",
+            "Vitamin C-rich foods (citrus fruits, kiwi)",
+            "Zinc-rich foods (pumpkin seeds, nuts)",
+            "Hydration",
+            "Avoid sugary and processed foods"
+        ],
+        "workouts": [
+            "Avoid shared gym equipment: Prevent spread",
+            "No swimming: Until cleared",
+            "Stretching at home: Avoid sweating on infected skin",
+            "Use clean towels: Hygiene is key"
+        ]
+    },
+    "noninfectious gastroenteritis": {
+        "description": "Noninfectious gastroenteritis refers to inflammation of the stomach and intestines not caused by infection, but by irritants like medications, alcohol, or food intolerances.",
+        "risk_score": 25,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid irritant foods",
+            "Stay hydrated",
+            "Eat bland diet",
+            "Rest well"
+        ],
+        "medications": [
+            "Antiemetics (e.g., Ondansetron)",
+            "Antispasmodics (e.g., Dicyclomine)",
+            "Probiotics",
+            "Hydration therapy",
+            "Dietary changes (BRAT diet)"
+        ],
+        "diets": [
+            "Bland diet (bananas, rice, applesauce)",
+            "Hydration",
+            "Avoid spicy, fatty, and dairy foods",
+            "Probiotics (yogurt, kefir)",
+            "Small frequent meals"
+        ],
+        "workouts": [
+            "Gentle walking: Only after rehydration",
+            "Rest: During acute symptoms",
+            "Avoid abdominal strain: Prevent discomfort",
+            "Hydration focus: Replace electrolytes"
+        ]
+    },
+    "benign prostatic hyperplasia (bph)": {
+        "description": "BPH is a non-cancerous enlargement of the prostate gland in older men, causing difficulty urinating, weak stream, or frequent urination, especially at night.",
+        "risk_score": 30,
+        "severity_level": "Low",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Limit evening fluid intake",
+            "Avoid alcohol and caffeine",
+            "Empty bladder completely",
+            "Follow up with urologist"
+        ],
+        "medications": [
+            "Alpha blockers (e.g., Tamsulosin)",
+            "5-alpha reductase inhibitors (e.g., Finasteride)",
+            "Tadalafil (for symptoms)",
+            "Surgical options (e.g., TURP)",
+            "Lifestyle changes"
+        ],
+        "diets": [
+            "Hydration",
+            "Limit caffeine and alcohol",
+            "Zinc-rich foods (pumpkin seeds, beef)",
+            "Tomatoes (lycopene)",
+            "High-fiber foods (whole grains, fruits, vegetables)"
+        ],
+        "workouts": [
+            "Pelvic floor exercises: Improve urinary control",
+            "Walking: Promotes bladder health",
+            "Avoid cycling: Can worsen symptoms",
+            "Stretching: Relieve pelvic tension"
+        ]
+    },
+    "spinal stenosis": {
+        "description": "Spinal stenosis is the narrowing of the spinal canal, often due to arthritis or disc problems, leading to back pain, numbness, and weakness in the legs.",
+        "risk_score": 35,
+        "severity_level": "Medium",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid high-impact activities",
+            "Use walking support",
+            "Physical therapy",
+            "Take anti-inflammatory meds"
+        ],
+        "medications": [
+            "NSAIDs",
+            "Physical therapy",
+            "Epidural steroid injections",
+            "Gabapentin or Pregabalin",
+            "Surgical decompression (e.g., laminectomy)"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (berries, leafy greens)",
+            "Omega-3 fatty acids (salmon, flaxseeds)",
+            "Calcium-rich foods (milk, cheese)",
+            "Vitamin D-rich foods (egg yolk, fortified cereals)",
+            "Protein-rich foods (chicken, legumes)"
+        ],
+        "workouts": [
+            "Flexion-based exercises: Reduce spinal pressure",
+            "Stationary biking: Low back stress",
+            "Water therapy: Buoyant support",
+            "Avoid arching or extension exercises: Prevent nerve irritation"
+        ]
+    },
+    "acute bronchitis": {
+        "description": "Acute bronchitis is inflammation of the bronchial tubes in the lungs, typically caused by a viral infection, resulting in cough, mucus production, chest discomfort, and low-grade fever.",
+        "risk_score": 20,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid smoking",
+            "Drink warm fluids",
+            "Use cough suppressants if needed",
+            "Rest and recover"
+        ],
+        "medications": [
+            "Cough suppressants (e.g., Dextromethorphan)",
+            "Expectorants (e.g., Guaifenesin)",
+            "Bronchodilators (if wheezing)",
+            "NSAIDs",
+            "Antibiotics (only if bacterial suspected)"
+        ],
+        "diets": [
+            "Hydration",
+            "Vitamin C-rich foods (citrus fruits, bell peppers)",
+            "Avoid dairy if mucus increases",
+            "Anti-inflammatory foods (ginger, turmeric)",
+            "Protein-rich foods (chicken, beans)"
+        ],
+        "workouts": [
+            "Breathing exercises: Aid recovery",
+            "Rest: Essential during coughing phase",
+            "Walking: Gradually reintroduce activity",
+            "Avoid cold-air workouts: Prevent airway constriction"
+        ]
+    },
+    "croup": {
+        "description": "Croup is a viral infection that causes swelling of the airway in young children, leading to a barking cough, hoarseness, and difficulty breathing, often worse at night.",
+        "risk_score": 30,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Use humidified air",
+            "Keep child calm",
+            "Encourage fluid intake",
+            "Seek medical help for breathing difficulty"
+        ],
+        "medications": [
+            "Dexamethasone (oral or IM)",
+            "Nebulized epinephrine",
+            "Humidified air",
+            "Antipyretics",
+            "Hydration"
+        ],
+        "diets": [
+            "Hydration",
+            "Humidified air",
+            "Vitamin C-rich foods (oranges, strawberries)",
+            "Avoid dairy if mucus worsens",
+            "Soft, easy to swallow foods (soups, smoothies)"
+        ],
+        "workouts": [
+            "Rest: Until breathing improves",
+            "Steam inhalation: Open airways",
+            "Avoid exertion: May worsen symptoms",
+            "Gentle play: Indoors and calm once recovering"
+        ]
+    },
+    "idiopathic excessive menstruation": {
+        "description": "Idiopathic excessive menstruation refers to abnormally heavy or prolonged menstrual bleeding without an identifiable underlying medical cause.",
+        "risk_score": 20,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Use sanitary protection",
+            "Monitor blood loss",
+            "Iron-rich diet",
+            "Consult gynecologist"
+        ],
+        "medications": [
+            "Tranexamic acid",
+            "NSAIDs (e.g., Mefenamic acid)",
+            "Oral contraceptives",
+            "Levonorgestrel-releasing IUD",
+            "Iron supplements"
+        ],
+        "diets": [
+            "Iron-rich foods (spinach, red meat)",
+            "Vitamin C-rich foods (oranges, bell peppers)",
+            "Hydration",
+            "Avoid caffeine and alcohol",
+            "High-fiber foods (whole grains, fruits)"
+        ],
+        "workouts": [
+            "Yoga: Eases cramps and bleeding",
+            "Walking: Low-impact movement",
+            "Pelvic floor workouts: Support reproductive organs",
+            "Avoid intense cardio: Prevent symptom worsening"
+        ]
+    },
+    "ear drum damage": {
+        "description": "Ear drum damage (tympanic membrane perforation) is a tear or hole in the eardrum due to infection, injury, or loud noise, which may cause pain, hearing loss, or drainage.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid water entry into ear",
+            "Don\u2019t insert objects into ear",
+            "Use ear drops as prescribed",
+            "Follow up with ENT"
+        ],
+        "medications": [
+            "Antibiotic ear drops (if infection)",
+            "Oral antibiotics (if needed)",
+            "Avoid water entry",
+            "Pain relief (e.g., Acetaminophen)",
+            "Tympanoplasty (if persistent perforation)"
+        ],
+        "diets": [
+            "Protein-rich foods (lean meats, eggs)",
+            "Vitamin C-rich foods (citrus, broccoli)",
+            "Zinc-rich foods (shellfish, pumpkin seeds)",
+            "Hydration",
+            "Avoid irritants"
+        ],
+        "workouts": [
+            "Avoid swimming and underwater sports",
+            "Walking: Safe and low-impact",
+            "Stretching: Avoid head-down positions",
+            "Protect ears from loud music/explosive sports"
+        ]
+    },
+    "temporary or benign blood in urine": {
+        "description": "Temporary or benign hematuria is the presence of blood in the urine without a serious underlying cause, sometimes triggered by exercise, medications, or mild infections.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Stay hydrated",
+            "Avoid strenuous activity",
+            "Avoid certain medications (as advised)",
+            "Follow up with doctor"
+        ],
+        "medications": [
+            "Hydration therapy",
+            "Avoid strenuous exercise",
+            "Adjust anticoagulants (if relevant)",
+            "Monitor kidney function",
+            "Reassurance and follow-up"
+        ],
+        "diets": [
+            "Hydration",
+            "Avoid irritants (spicy foods, caffeine)",
+            "Balanced diet with fruits and vegetables",
+            "Limit sodium and processed foods",
+            "Consult doctor for specific recommendations"
+        ],
+        "workouts": [
+            "Walking: Low strain on kidneys",
+            "Hydration before and after: Support urinary health",
+            "Avoid heavy lifting: Prevent internal pressure",
+            "Gentle stretching: Support circulation"
+        ]
+    },
+    "common cold": {
+        "description": "The common cold is a viral infection of the upper respiratory tract, typically causing sneezing, sore throat, nasal congestion, cough, and mild fever.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Drink plenty of fluids",
+            "Rest well",
+            "Use nasal decongestants",
+            "Practice good hygiene"
+        ],
+        "medications": [
+            "Paracetamol",
+            "Ibuprofen",
+            "Decongestants (e.g., Pseudoephedrine)",
+            "Antihistamines",
+            "Cough syrups (e.g., Dextromethorphan)"
+        ],
+        "diets": [
+            "Hydration (water, herbal teas)",
+            "Vitamin C-rich foods (citrus, kiwi)",
+            "Zinc-rich foods (nuts, seeds)",
+            "Chicken soup",
+            "Avoid dairy if mucus increases"
+        ],
+        "workouts": [
+            "Rest: Essential during acute phase",
+            "Gentle yoga: After fever subsides",
+            "Walking: Once energy returns",
+            "Breathing exercises: Open airways"
+        ]
+    },
+    "depression": {
+        "description": "Depression is a mental health disorder characterized by persistent sadness, loss of interest or pleasure, fatigue, and changes in sleep or appetite, significantly impacting daily life.",
+        "risk_score": 45,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Maintain social connection",
+            "Follow treatment plan",
+            "Get regular exercise",
+            "Avoid alcohol and drugs"
+        ],
+        "medications": [
+            "SSRIs (e.g., Sertraline, Escitalopram)",
+            "SNRIs (e.g., Venlafaxine)",
+            "Atypical antidepressants (e.g., Bupropion)",
+            "Cognitive Behavioral Therapy (CBT)",
+            "Psychotherapy"
+        ],
+        "diets": [
+            "Omega-3 fatty acids (salmon, walnuts)",
+            "Vitamin D-rich foods (egg yolk, fortified cereals)",
+            "Complex carbs (whole grains, legumes)",
+            "Folate-rich foods (leafy greens, beans)",
+            "Limit processed sugars and caffeine"
+        ],
+        "workouts": [
+            "Aerobic exercise: Boosts mood via endorphins",
+            "Yoga: Mind-body balance",
+            "Group activities: Enhance motivation",
+            "Walking in nature: Proven to reduce symptoms"
+        ]
+    },
+    "idiopathic irregular menstrual cycle": {
+        "description": "Idiopathic irregular menstrual cycle refers to inconsistent or unpredictable menstrual periods without a clear medical cause, often linked to hormonal imbalance.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Keep menstrual diary",
+            "Maintain healthy weight",
+            "Reduce stress",
+            "Consult a gynecologist"
+        ],
+        "medications": [
+            "Combined oral contraceptives",
+            "Progestins",
+            "Metformin (if PCOS-related)",
+            "Lifestyle modification",
+            "Clomiphene (for ovulation induction)"
+        ],
+        "diets": [
+            "Balanced diet with protein (chicken, beans)",
+            "Iron-rich foods (spinach, lentils)",
+            "Vitamin B6-rich foods (bananas, poultry)",
+            "Hydration",
+            "Avoid caffeine and high sugar foods"
+        ],
+        "workouts": [
+            "Moderate aerobic workouts: Regulate hormones",
+            "Yoga: Balance endocrine function",
+            "Strength training: Improves metabolic health",
+            "Avoid excessive exercise: Can disrupt cycles"
+        ]
+    },
+    "schizophrenia": {
+        "description": "Schizophrenia is a severe psychiatric disorder involving distortions in thinking, perception, emotions, language, and behavior, often with hallucinations or delusions.",
+        "risk_score": 60,
+        "severity_level": "High",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Adhere to medication",
+            "Avoid substance abuse",
+            "Attend therapy sessions",
+            "Build a support network"
+        ],
+        "medications": [
+            "Antipsychotics (e.g., Risperidone, Olanzapine)",
+            "Clozapine (treatment-resistant cases)",
+            "Cognitive behavioral therapy",
+            "Long-acting injectables",
+            "Psychosocial support"
+        ],
+        "diets": [
+            "Omega-3 fatty acids (fish, flaxseeds)",
+            "Complex carbs (whole grains, vegetables)",
+            "Vitamin B-complex foods (eggs, nuts)",
+            "Antioxidant-rich foods (berries, citrus)",
+            "Limit caffeine and processed foods"
+        ],
+        "workouts": [
+            "Structured group workouts: Promote social interaction",
+            "Walking or jogging: Boosts brain chemicals",
+            "Tai chi: Improves focus and calm",
+            "Avoid sensory overload: Choose quiet environments"
+        ]
+    },
+    "sepsis": {
+        "description": "Sepsis is a life-threatening response to infection where the body\u2019s immune system causes widespread inflammation, leading to tissue damage, organ failure, and possibly death.",
+        "risk_score": 100,
+        "severity_level": "Critical",
+        "surgery_needed": "No",
+        "emergency": "Yes",
+        "probability_death_range": "30-40%",
+        "precautions": [
+            "Seek urgent medical care",
+            "Follow antibiotic regimen",
+            "Monitor temperature & vitals",
+            "Maintain good hygiene"
+        ],
+        "medications": [
+            "IV broad-spectrum antibiotics (e.g., Piperacillin-tazobactam)",
+            "IV fluids",
+            "Vasopressors (e.g., Norepinephrine)",
+            "Oxygen therapy",
+            "Source control (e.g., drainage of abscess)"
+        ],
+        "diets": [
+            "High-protein foods (eggs, lean meat)",
+            "Hydration",
+            "Vitamin C and zinc-rich foods (citrus fruits, pumpkin seeds)",
+            "Balanced electrolyte intake",
+            "Consult doctor for specific nutritional support"
+        ],
+        "workouts": [
+            "Rest and rehabilitation: After acute phase",
+            "Gentle walking: Gradual rebuilding",
+            "Physical therapy: Restore strength",
+            "Avoid overexertion: Recovery can be long-term"
+        ]
+    },
+    "cholecystitis": {
+        "description": "Cholecystitis is inflammation of the gallbladder, often due to gallstones, causing severe upper abdominal pain, fever, nausea, and tenderness.",
+        "risk_score": 70,
+        "severity_level": "High",
+        "surgery_needed": "Yes",
+        "emergency": "Yes",
+        "probability_death_range": "1-5%",
+        "precautions": [
+            "Avoid fatty foods",
+            "Stay hydrated",
+            "Follow up for imaging/tests",
+            "Take antibiotics as prescribed"
+        ],
+        "medications": [
+            "IV antibiotics (e.g., Ceftriaxone + Metronidazole)",
+            "Pain relievers (e.g., Morphine)",
+            "IV fluids",
+            "NPO (nothing by mouth)",
+            "Cholecystectomy (surgical removal of gallbladder)"
+        ],
+        "diets": [
+            "Low-fat diet (lean proteins, vegetables)",
+            "Avoid fried and fatty foods",
+            "High-fiber foods (whole grains, fruits)",
+            "Hydration",
+            "Small frequent meals"
+        ],
+        "workouts": [
+            "Gentle movement: After inflammation resolves",
+            "Avoid high-fat pre-workout meals",
+            "Walking: Improves digestion",
+            "Avoid core strain: Prevent gallbladder pressure"
+        ]
+    },
+    "cystitis": {
+        "description": "Cystitis is inflammation of the bladder, usually from a bacterial infection, leading to frequent, painful urination and lower abdominal discomfort.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Drink cranberry juice or water",
+            "Urinate frequently",
+            "Avoid irritants like caffeine",
+            "Wipe front to back"
+        ],
+        "medications": [
+            "Nitrofurantoin",
+            "Trimethoprim-sulfamethoxazole",
+            "Fosfomycin",
+            "Phenazopyridine (for pain relief)",
+            "Hydration"
+        ],
+        "diets": [
+            "Hydration (water, cranberry juice)",
+            "Avoid caffeine and alcohol",
+            "Vitamin C-rich foods (oranges, strawberries)",
+            "Probiotics (yogurt, kefir)",
+            "Avoid spicy and acidic foods"
+        ],
+        "workouts": [
+            "Walking: Safe and bladder-friendly",
+            "Hydration focus: Before and after",
+            "Pelvic floor exercises: Improve control",
+            "Avoid workouts that cause dehydration"
+        ]
+    },
+    "hemorrhoids": {
+        "description": "Hemorrhoids are swollen veins in the anus or rectum that cause pain, itching, bleeding, or discomfort during bowel movements.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Eat fiber-rich foods",
+            "Avoid prolonged sitting",
+            "Stay hydrated",
+            "Use sitz baths"
+        ],
+        "medications": [
+            "Topical hydrocortisone cream",
+            "Witch hazel pads",
+            "Stool softeners (e.g., Docusate)",
+            "Sitz baths",
+            "Surgical procedures (e.g., rubber band ligation)"
+        ],
+        "diets": [
+            "High-fiber foods (whole grains, fruits, vegetables)",
+            "Hydration",
+            "Avoid straining and constipation",
+            "Limit caffeine and alcohol",
+            "Probiotics (yogurt, kimchi)"
+        ],
+        "workouts": [
+            "Walking: Reduces pressure on rectal veins",
+            "Kegel exercises: Improve blood flow",
+            "Avoid heavy lifting: Prevent flare-ups",
+            "Gentle yoga: Especially pelvic-friendly poses"
+        ]
+    },
+    "contact dermatitis": {
+        "description": "Contact dermatitis is a skin inflammation caused by exposure to an irritant or allergen, resulting in redness, itching, blisters, or dryness.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Identify and avoid allergen",
+            "Use fragrance-free products",
+            "Apply soothing lotion",
+            "Wear gloves when needed"
+        ],
+        "medications": [
+            "Topical corticosteroids (e.g., Hydrocortisone)",
+            "Oral antihistamines",
+            "Moisturizers",
+            "Avoidance of allergen/irritant",
+            "Oral corticosteroids (if severe)"
+        ],
+        "diets": [
+            "Avoid allergenic foods",
+            "Anti-inflammatory foods (turmeric, ginger)",
+            "Hydrating fluids",
+            "Vitamin E-rich foods (nuts, seeds)",
+            "Probiotics (fermented foods)"
+        ],
+        "workouts": [
+            "Avoid sweating heavily: Can irritate skin",
+            "Indoor stretching: Cool and dry",
+            "Use breathable clothing: During workouts",
+            "Clean skin after exercise: Prevent flare-ups"
+        ]
+    },
+    "sinus bradycardia": {
+        "description": "Sinus bradycardia is a slower than normal heart rate originating from the sinus node, which may be normal in athletes or caused by medications or medical conditions.",
+        "risk_score": 50,
+        "severity_level": "Medium",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Avoid excessive physical strain",
+            "Regular cardiac monitoring",
+            "Follow-up with cardiologist",
+            "Manage electrolyte balance"
+        ],
+        "medications": [
+            "Atropine (acute cases)",
+            "Temporary or permanent pacemaker (if symptomatic)",
+            "Adjust medications (if drug-induced)",
+            "Isoproterenol infusion (if needed)",
+            "Monitor ECG"
+        ],
+        "diets": [
+            "Balanced diet with adequate electrolytes (potassium from bananas, magnesium from nuts)",
+            "Hydration",
+            "Limit caffeine and alcohol",
+            "Whole grains and lean proteins",
+            "Consult cardiologist"
+        ],
+        "workouts": [
+            "Light aerobic activity: Walking or slow cycling",
+            "Warm-up and cool-down: Essential to prevent dizziness",
+            "Breathing exercises: Support heart rhythm",
+            "Avoid overexertion: Monitor heart rate"
+        ]
+    },
+    "pelvic inflammatory disease": {
+        "description": "Pelvic inflammatory disease (PID) is an infection of the female reproductive organs, often caused by sexually transmitted bacteria, leading to abdominal pain, fever, and abnormal discharge.",
+        "risk_score": 40,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Complete full course of antibiotics",
+            "Avoid sexual activity during treatment",
+            "Practice safe sex",
+            "Attend follow-up appointments"
+        ],
+        "medications": [
+            "Ceftriaxone + Doxycycline + Metronidazole",
+            "Pain relievers",
+            "Hospitalization (for severe cases)",
+            "Partner treatment",
+            "Abstain from intercourse during treatment"
+        ],
+        "diets": [
+            "Hydration",
+            "Protein-rich foods (chicken, beans)",
+            "Vitamin C-rich foods (citrus fruits)",
+            "Avoid irritants and processed foods",
+            "Probiotics (yogurt, kefir)"
+        ],
+        "workouts": [
+            "Pelvic floor strengthening: Aid recovery",
+            "Walking: Supports circulation",
+            "Avoid high-impact sports: Prevent discomfort",
+            "Gentle yoga: Pelvic-friendly movements"
+        ]
+    },
+    "liver disease": {
+        "description": "Liver disease refers to a range of disorders affecting the liver, such as hepatitis, fatty liver, or cirrhosis, potentially causing jaundice, fatigue, and liver dysfunction.",
+        "risk_score": 85,
+        "severity_level": "Critical",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "20-30%",
+        "precautions": [
+            "Avoid alcohol",
+            "Follow a liver-friendly diet",
+            "Get vaccinated for hepatitis",
+            "Monitor liver function tests"
+        ],
+        "medications": [
+            "Lactulose (for hepatic encephalopathy)",
+            "Diuretics (e.g., Spironolactone)",
+            "Vitamin K (if coagulopathy)",
+            "Ursodeoxycholic acid",
+            "Antivirals (e.g., Tenofovir for HBV)"
+        ],
+        "diets": [
+            "Low sodium diet (avoid processed foods)",
+            "High-protein foods (eggs, lean meats)",
+            "Vitamin-rich foods (leafy greens, fruits)",
+            "Avoid alcohol and saturated fats",
+            "Hydration"
+        ],
+        "workouts": [
+            "Walking: Promotes liver circulation",
+            "Avoid strenuous workouts: Can worsen fatigue",
+            "Strength training (light): Improve muscle mass",
+            "Avoid alcohol-based environments (gyms with bars etc.): Stay safe"
+        ]
+    },
+    "chronic constipation": {
+        "description": "Chronic constipation is a long-term condition characterized by infrequent or difficult bowel movements, often accompanied by abdominal discomfort or bloating.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Increase fiber intake",
+            "Exercise regularly",
+            "Stay hydrated",
+            "Avoid delaying bowel movements"
+        ],
+        "medications": [
+            "Laxatives (e.g., Polyethylene glycol)",
+            "Stool softeners (e.g., Docusate)",
+            "Fiber supplements (e.g., Psyllium)",
+            "Osmotic agents (e.g., Lactulose)",
+            "Prokinetics"
+        ],
+        "diets": [
+            "High-fiber foods (whole grains, fruits, vegetables)",
+            "Hydration",
+            "Probiotics (yogurt, kimchi)",
+            "Limit processed and fatty foods",
+            "Regular meals and physical activity"
+        ],
+        "workouts": [
+            "Walking: Stimulates bowel movement",
+            "Yoga: Helps with digestion",
+            "Core-focused stretching: Gently activates abdomen",
+            "Hydration pre- and post-workout: Key support"
+        ]
+    },
+    "skin polyp": {
+        "description": "A skin polyp (skin tag) is a small, benign growth of skin that typically appears in areas where skin rubs together, like the neck, armpits, or groin.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid irritation or injury to area",
+            "Monitor size and appearance",
+            "Don\u2019t self-remove",
+            "Seek medical evaluation"
+        ],
+        "medications": [
+            "Cryotherapy",
+            "Electrosurgical removal",
+            "Snare excision",
+            "Topical anesthesia",
+            "Histopathology (to rule out malignancy)"
+        ],
+        "diets": [
+            "Balanced diet with antioxidants (berries, leafy greens)",
+            "Vitamin A-rich foods (carrots, sweet potatoes)",
+            "Hydration",
+            "Avoid processed and fried foods",
+            "Omega-3 fatty acids (fish, flaxseeds)"
+        ],
+        "workouts": [
+            "Avoid friction-prone exercises: Prevent irritation",
+            "Wear soft, non-abrasive clothing",
+            "Gentle yoga or walking",
+            "Monitor any changes during workout routines"
+        ]
+    },
+    "brachial neuritis": {
+        "description": "Brachial neuritis is inflammation of the brachial plexus nerves, causing sudden shoulder and arm pain followed by weakness or numbness.",
+        "risk_score": 20,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid heavy lifting",
+            "Physical therapy",
+            "Manage pain with meds",
+            "Get adequate rest"
+        ],
+        "medications": [
+            "NSAIDs",
+            "Oral corticosteroids",
+            "Gabapentin or Pregabalin",
+            "Physical therapy",
+            "Pain management"
+        ],
+        "diets": [
+            "Protein-rich foods (chicken, beans)",
+            "Anti-inflammatory foods (turmeric, ginger)",
+            "Omega-3 fatty acids (salmon, walnuts)",
+            "Vitamin B complex (whole grains, eggs)",
+            "Hydration"
+        ],
+        "workouts": [
+            "Range-of-motion exercises: Restore shoulder movement",
+            "Light resistance training: Under physiotherapy",
+            "Avoid overhead lifting",
+            "Pain management with guided stretching"
+        ]
+    },
+    "esophagitis": {
+        "description": "Esophagitis is inflammation of the esophagus, commonly due to acid reflux, infections, or medications, causing pain when swallowing and chest discomfort.",
+        "risk_score": 25,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid spicy & acidic food",
+            "Eat smaller meals",
+            "Sit upright after eating",
+            "Follow prescribed medication"
+        ],
+        "medications": [
+            "Proton Pump Inhibitors (e.g., Omeprazole)",
+            "H2 Blockers (e.g., Ranitidine)",
+            "Sucralfate",
+            "Antifungal or antiviral agents (if infectious)",
+            "Dietary changes"
+        ],
+        "diets": [
+            "Soft, bland diet (bananas, applesauce, oatmeal)",
+            "Avoid spicy, acidic, and fatty foods",
+            "Small frequent meals",
+            "Hydration",
+            "Avoid caffeine and alcohol"
+        ],
+        "workouts": [
+            "Avoid high-impact workouts post meals",
+            "Walking: Gentle digestive aid",
+            "Breathing exercises: Ease reflux",
+            "No crunches or abdominal pressure"
+        ]
+    },
+    "diverticulitis": {
+        "description": "Diverticulitis is inflammation or infection of small pouches (diverticula) in the colon wall, leading to abdominal pain, fever, and changes in bowel habits.",
+        "risk_score": 55,
+        "severity_level": "Medium",
+        "surgery_needed": "Yes",
+        "emergency": "Yes",
+        "probability_death_range": "1-5%",
+        "precautions": [
+            "Eat low-fiber during flare-ups",
+            "Stay hydrated",
+            "Take antibiotics if prescribed",
+            "Avoid seeds/nuts if advised"
+        ],
+        "medications": [
+            "Antibiotics (e.g., Ciprofloxacin + Metronidazole)",
+            "Clear liquid diet (during flare)",
+            "Pain relievers",
+            "High-fiber diet (after recovery)",
+            "Surgery (if complications)"
+        ],
+        "diets": [
+            "Low-fiber diet during flare-up (white bread, white rice)",
+            "Hydration",
+            "Gradual increase to high-fiber diet (fruits, vegetables, whole grains)",
+            "Avoid nuts and seeds during flare-ups",
+            "Probiotics"
+        ],
+        "workouts": [
+            "Rest: During acute phase",
+            "Walking: Light and easy on digestion",
+            "Avoid heavy weights: Prevent abdominal strain",
+            "Hydration support during and after workouts"
+        ]
+    },
+    "sprain or strain": {
+        "description": "A sprain is a stretched or torn ligament, while a strain is a stretched or torn muscle or tendon; both cause pain, swelling, and limited movement.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Rest the area",
+            "Apply ice packs",
+            "Compression with bandage",
+            "Elevate the limb"
+        ],
+        "medications": [
+            "RICE (Rest, Ice, Compression, Elevation)",
+            "NSAIDs (e.g., Ibuprofen)",
+            "Muscle relaxants",
+            "Physical therapy",
+            "Immobilization (if needed)"
+        ],
+        "diets": [
+            "Protein-rich foods (lean meat, eggs)",
+            "Anti-inflammatory foods (ginger, turmeric)",
+            "Vitamin C-rich foods (citrus fruits)",
+            "Hydration",
+            "Zinc-rich foods (nuts, seeds)"
+        ],
+        "workouts": [
+            "RICE first (rest, ice, compress, elevate)",
+            "Gentle range-of-motion exercises: After pain subsides",
+            "Avoid re-injury: Use supports if needed",
+            "Rehabilitation-focused strength training"
+        ]
+    },
+    "idiopathic painful menstruation": {
+        "description": "Idiopathic painful menstruation (primary dysmenorrhea) is severe menstrual cramping without an identifiable medical condition, often starting in adolescence.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Use heat pads",
+            "Take antispasmodics/NSAIDs",
+            "Regular exercise",
+            "Avoid stress"
+        ],
+        "medications": [
+            "NSAIDs (e.g., Ibuprofen)",
+            "Oral contraceptives",
+            "Heat therapy",
+            "Vitamin B1 and magnesium supplements",
+            "Physical activity"
+        ],
+        "diets": [
+            "Magnesium-rich foods (spinach, dark chocolate)",
+            "Omega-3 fatty acids (salmon, walnuts)",
+            "Hydration",
+            "Avoid salty and processed foods",
+            "Ginger and turmeric tea"
+        ],
+        "workouts": [
+            "Yoga: Especially child\u2019s pose and reclined twist",
+            "Walking: Helps reduce cramps",
+            "Heat therapy post-exercise: Relieves pain",
+            "Avoid high-intensity workouts during pain spikes"
+        ]
+    },
+    "eustachian tube dysfunction (ear disorder)": {
+        "description": "Eustachian tube dysfunction occurs when the tube connecting the middle ear to the throat becomes blocked or fails to open, causing pressure, pain, or hearing issues.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid flying with a cold",
+            "Use decongestants",
+            "Perform Valsalva maneuver",
+            "Stay hydrated"
+        ],
+        "medications": [
+            "Nasal decongestants",
+            "Nasal corticosteroids",
+            "Auto-inflation (e.g., Valsalva maneuver)",
+            "Antihistamines",
+            "Surgical placement of ear tubes (in severe cases)"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (berries, leafy greens)",
+            "Vitamin C-rich foods (oranges, peppers)",
+            "Hydration",
+            "Avoid dairy if congestion worsens",
+            "Probiotics (yogurt)"
+        ],
+        "workouts": [
+            "Avoid pressure changes: No underwater or flying sports",
+            "Breathing and jaw exercises: Promote drainage",
+            "Gentle yoga: Avoid headstand poses",
+            "Walking: Comfortable, low pressure"
+        ]
+    },
+    "appendicitis": {
+        "description": "Appendicitis is inflammation of the appendix, usually requiring surgery, and causes sudden lower right abdominal pain, nausea, and fever.",
+        "risk_score": 80,
+        "severity_level": "Critical",
+        "surgery_needed": "Yes",
+        "emergency": "Yes",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Avoid taking laxatives",
+            "Seek emergency care",
+            "Don\u2019t eat or drink before surgery",
+            "Follow post-op instructions"
+        ],
+        "medications": [
+            "Surgical removal (Appendectomy)",
+            "Pre-operative antibiotics (e.g., Ceftriaxone + Metronidazole)",
+            "Pain management",
+            "IV fluids",
+            "NPO status before surgery"
+        ],
+        "diets": [
+            "Post-surgery: soft foods (broths, rice, applesauce)",
+            "Hydration",
+            "Avoid high-fat and spicy foods",
+            "Gradually introduce fiber (vegetables, fruits)",
+            "Probiotics"
+        ],
+        "workouts": [
+            "Complete rest post-surgery",
+            "Physical therapy: If surgery involved",
+            "Walking: Introduced gradually",
+            "Avoid abdominal workouts until cleared"
+        ]
+    },
+    "hyperemesis gravidarum": {
+        "description": "Hyperemesis gravidarum is a severe form of morning sickness in pregnancy, leading to persistent nausea, vomiting, dehydration, and weight loss.",
+        "risk_score": 35,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Eat small, frequent meals",
+            "Stay hydrated",
+            "Avoid strong odors",
+            "Take prescribed anti-nausea meds"
+        ],
+        "medications": [
+            "IV fluids and electrolytes",
+            "Vitamin B6 (Pyridoxine)",
+            "Antiemetics (e.g., Ondansetron, Promethazine)",
+            "Thiamine supplementation",
+            "Nutritional support (e.g., TPN if severe)"
+        ],
+        "diets": [
+            "Small frequent meals",
+            "Bland foods (crackers, rice)",
+            "Ginger tea",
+            "Vitamin B6-rich foods (bananas, chickpeas)",
+            "Hydration with electrolytes (ORS, coconut water)"
+        ],
+        "workouts": [
+            "Gentle walking: If tolerated",
+            "Prenatal yoga: Helps manage nausea",
+            "Avoid fast movements: Prevent triggering symptoms",
+            "Hydration breaks essential"
+        ]
+    },
+    "urinary tract infection": {
+        "description": "A urinary tract infection (UTI) is an infection in any part of the urinary system, commonly the bladder, causing pain during urination, urgency, and cloudy or strong-smelling urine.",
+        "risk_score": 20,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Drink plenty of fluids",
+            "Urinate after sex",
+            "Wipe front to back",
+            "Complete antibiotic course"
+        ],
+        "medications": [
+            "Nitrofurantoin",
+            "Ciprofloxacin",
+            "Trimethoprim-sulfamethoxazole",
+            "Cranberry supplements",
+            "Hydration therapy"
+        ],
+        "diets": [
+            "Hydration (water, cranberry juice)",
+            "Avoid caffeine, alcohol, and spicy foods",
+            "Vitamin C-rich foods (citrus, bell peppers)",
+            "Probiotics (yogurt, kefir)",
+            "Fiber-rich foods"
+        ],
+        "workouts": [
+            "Walking: Gentle activity safe during mild infections",
+            "Avoid workouts that apply pressure to bladder",
+            "Hydration-focused workouts",
+            "Pelvic floor exercises: Strengthen urinary control"
+        ]
+    },
+    "peripheral nerve disorder": {
+        "description": "Peripheral nerve disorders affect the nerves outside the brain and spinal cord, leading to numbness, weakness, pain, or coordination problems.",
+        "risk_score": 30,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid repetitive injury",
+            "Use ergonomic tools",
+            "Take B vitamins if deficient",
+            "Follow neurologist\u2019s advice"
+        ],
+        "medications": [
+            "Gabapentin",
+            "Pregabalin",
+            "Amitriptyline",
+            "Physical therapy",
+            "Alpha-lipoic acid (as supplement)"
+        ],
+        "diets": [
+            "Vitamin B-rich foods (whole grains, eggs, leafy greens)",
+            "Omega-3 fatty acids (salmon, chia seeds)",
+            "Anti-inflammatory foods (turmeric, berries)",
+            "Hydration"
+        ],
+        "workouts": [
+            "Balance training: Prevent falls",
+            "Physical therapy: Guided nerve rehab",
+            "Stretching: Maintain flexibility",
+            "Swimming: Low-impact full-body option"
+        ]
+    },
+    "sebaceous cyst": {
+        "description": "A sebaceous cyst is a noncancerous bump beneath the skin, filled with oily material, often caused by blocked sebaceous glands.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Keep area clean",
+            "Avoid squeezing",
+            "Apply warm compress",
+            "Get it drained by a doctor if needed"
+        ],
+        "medications": [
+            "Warm compress",
+            "Incision and drainage (if infected)",
+            "Antibiotics (if signs of infection)",
+            "Surgical excision",
+            "Steroid injection (if inflamed)"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (ginger, turmeric, leafy greens)",
+            "Zinc-rich foods (pumpkin seeds, nuts)",
+            "Vitamin A-rich foods (carrots, sweet potatoes)",
+            "Hydration"
+        ],
+        "workouts": [
+            "Avoid pressure or friction on cyst",
+            "Low-sweat activities: Prevent irritation",
+            "Walking or yoga: With non-abrasive clothing",
+            "Avoid helmets/hats if cyst is on scalp"
+        ]
+    },
+    "spontaneous abortion": {
+        "description": "Spontaneous abortion (miscarriage) is the loss of a pregnancy before 20 weeks, often due to genetic issues or unknown causes, and may involve bleeding and cramping.",
+        "risk_score": 50,
+        "severity_level": "Medium",
+        "surgery_needed": "Yes",
+        "emergency": "Yes",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Take emotional support",
+            "Rest adequately",
+            "Avoid strenuous activity",
+            "Follow up for check-up"
+        ],
+        "medications": [
+            "Misoprostol (to complete expulsion)",
+            "Mifepristone + Misoprostol (in selected cases)",
+            "Dilation and curettage (if needed)",
+            "Rh immunoglobulin (if Rh-negative)",
+            "Emotional support and counseling"
+        ],
+        "diets": [
+            "Iron-rich foods (red meat, spinach)",
+            "Vitamin C (citrus, strawberries)",
+            "Folate-rich foods (legumes, dark leafy greens)",
+            "Hydration",
+            "Comforting herbal teas"
+        ],
+        "workouts": [
+            "Gentle stretching: Emotional and physical recovery",
+            "Walking: When emotionally and physically ready",
+            "Yoga: Calms the nervous system",
+            "Avoid strenuous exercise: Until cleared by doctor"
+        ]
+    },
+    "gallstone": {
+        "description": "Gallstones are hardened deposits of digestive fluid in the gallbladder that can block bile flow, causing abdominal pain, nausea, and sometimes infection.",
+        "risk_score": 60,
+        "severity_level": "High",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0-1%",
+        "precautions": [
+            "Avoid high-fat foods",
+            "Maintain a healthy weight",
+            "Eat regular meals",
+            "Follow up for surgical evaluation if needed"
+        ],
+        "medications": [
+            "Ursodeoxycholic acid (in some cases)",
+            "Pain relievers (e.g., NSAIDs)",
+            "Cholecystectomy (surgical removal)",
+            "Antibiotics (if cholecystitis)",
+            "Dietary modifications"
+        ],
+        "diets": [
+            "Low-fat diet (steamed vegetables, lean meats)",
+            "High-fiber foods (whole grains, apples)",
+            "Avoid fried foods and refined carbs",
+            "Hydration",
+            "Small frequent meals"
+        ],
+        "workouts": [
+            "Avoid high-fat pre-workout meals",
+            "Walking: Encourages digestion",
+            "Breathing exercises: Reduce stress and spasm",
+            "Avoid core-focused exercises: Prevent discomfort"
+        ]
+    },
+    "multiple sclerosis": {
+        "description": "Multiple sclerosis (MS) is an autoimmune disease where the immune system attacks the protective sheath of nerves, leading to weakness, vision problems, and coordination issues.",
+        "risk_score": 65,
+        "severity_level": "High",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "1-5%",
+        "precautions": [
+            "Avoid overheating",
+            "Follow medication schedule",
+            "Stay physically active",
+            "Rest when needed"
+        ],
+        "medications": [
+            "Interferon beta",
+            "Glatiramer acetate",
+            "Natalizumab",
+            "Corticosteroids (for flare-ups)",
+            "Disease-modifying therapies (e.g., Fingolimod)"
+        ],
+        "diets": [
+            "Omega-3 fatty acids (flaxseeds, salmon)",
+            "Vitamin D-rich foods (eggs, fortified milk)",
+            "Antioxidant-rich foods (berries, spinach)",
+            "Limit saturated fats",
+            "Probiotics"
+        ],
+        "workouts": [
+            "Balance training: Prevent falls",
+            "Aqua therapy: Joint-friendly",
+            "Stretching: Reduce stiffness",
+            "Seated resistance training: Build strength safely"
+        ]
+    },
+    "angina": {
+        "description": "Angina is chest pain or discomfort due to reduced blood flow to the heart muscle, often triggered by exertion or stress, and relieved by rest or medication.",
+        "risk_score": 70,
+        "severity_level": "High",
+        "surgery_needed": "Yes",
+        "emergency": "Yes",
+        "probability_death_range": "5-10%",
+        "precautions": [
+            "Avoid overexertion",
+            "Take nitroglycerin as prescribed",
+            "Manage stress",
+            "Avoid cold exposure"
+        ],
+        "medications": [
+            "Nitroglycerin (sublingual)",
+            "Beta-blockers",
+            "Calcium channel blockers",
+            "Aspirin",
+            "Statins"
+        ],
+        "diets": [
+            "Heart-healthy diet (oats, olive oil, fish)",
+            "Omega-3 fatty acids (salmon, flaxseed)",
+            "Low-sodium foods",
+            "Fruits and vegetables",
+            "Avoid trans fats and red meat"
+        ],
+        "workouts": [
+            "Cardiac rehab exercises: Under supervision",
+            "Walking on flat ground: Safe cardiovascular option",
+            "Avoid cold-weather workouts: Prevent constriction",
+            "No heavy lifting: Can trigger symptoms"
+        ]
+    },
+    "skin pigmentation disorder": {
+        "description": "Skin pigmentation disorders involve changes in skin color due to excess or lack of melanin, such as vitiligo, melasma, or hyperpigmentation.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Use sunscreen daily",
+            "Avoid skin irritants",
+            "Follow dermatological treatments",
+            "Stay hydrated"
+        ],
+        "medications": [
+            "Hydroquinone cream",
+            "Topical retinoids",
+            "Azelaic acid",
+            "Chemical peels",
+            "Laser therapy (for resistant cases)"
+        ],
+        "diets": [
+            "Vitamin C-rich foods (oranges, bell peppers)",
+            "Vitamin E-rich foods (almonds, sunflower seeds)",
+            "Beta-carotene (carrots, sweet potatoes)",
+            "Hydration",
+            "Green tea"
+        ],
+        "workouts": [
+            "Avoid sun exposure: Exercise indoors or with protection",
+            "Low-sweat activities: Prevent friction and inflammation",
+            "Yoga: Gentle and non-irritating",
+            "Hydration: Helps skin health"
+        ]
+    },
+    "personality disorder": {
+        "description": "Personality disorders are mental health conditions involving rigid and unhealthy patterns of thinking, functioning, and behaving that impair social or occupational life.",
+        "risk_score": 40,
+        "severity_level": "Medium",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Follow psychotherapy plan",
+            "Avoid substance use",
+            "Build healthy relationships",
+            "Maintain regular routines"
+        ],
+        "medications": [
+            "Psychotherapy (e.g., DBT for BPD)",
+            "SSRIs (for mood symptoms)",
+            "Mood stabilizers (e.g., Lithium)",
+            "Antipsychotics (in some cases)",
+            "Group therapy"
+        ],
+        "diets": [
+            "Balanced diet",
+            "Omega-3 fatty acids (walnuts, flaxseed)",
+            "Vitamin B-complex (eggs, legumes)",
+            "Magnesium-rich foods (dark chocolate, spinach)",
+            "Avoid sugar and processed foods"
+        ],
+        "workouts": [
+            "Team sports: Encourage social interaction",
+            "Walking or running: Structured routine helps mood",
+            "Yoga or tai chi: Promote mindfulness",
+            "Supervised fitness coaching: Builds discipline and trust"
+        ]
+    },
+    "strep throat": {
+        "description": "Strep throat is a bacterial throat infection caused by Streptococcus pyogenes, leading to sore throat, fever, swollen glands, and red tonsils with white patches.",
+        "risk_score": 15,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Complete full antibiotic course",
+            "Avoid sharing utensils",
+            "Get adequate rest",
+            "Drink warm fluids"
+        ],
+        "medications": [
+            "Penicillin",
+            "Amoxicillin",
+            "Azithromycin (if allergic to penicillin)",
+            "Analgesics (e.g., Acetaminophen)",
+            "Salt water gargles"
+        ],
+        "diets": [
+            "Soft foods (soups, mashed potatoes)",
+            "Warm teas (ginger, chamomile)",
+            "Hydration",
+            "Avoid acidic or spicy foods",
+            "Vitamin C-rich foods (oranges, strawberries)"
+        ],
+        "workouts": [
+            "Rest: Until infection clears",
+            "Avoid cardio: While febrile or sore throat",
+            "Walking: Gradually after symptoms ease",
+            "Hydration and vocal rest after workouts"
+        ]
+    },
+    "developmental disability": {
+        "description": "Developmental disabilities are chronic conditions that begin in childhood and affect physical, learning, language, or behavioral areas, such as autism or intellectual disability.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Follow individualized education plans",
+            "Encourage structured routine",
+            "Regular therapy",
+            "Provide positive reinforcement"
+        ],
+        "medications": [
+            "Speech therapy",
+            "Occupational therapy",
+            "Behavioral therapy",
+            "Medications (e.g., Risperidone for irritability in autism)",
+            "Special education programs"
+        ],
+        "diets": [
+            "Balanced, nutrient-dense diet",
+            "Omega-3 fatty acids (fish, flaxseeds)",
+            "B vitamins (whole grains, meat)",
+            "Fiber-rich foods",
+            "Limit sugar and artificial additives"
+        ],
+        "workouts": [
+            "Occupational therapy-integrated activities",
+            "Swimming: Enhances motor coordination",
+            "Group play or structured fitness",
+            "Balance and core work: Tailored to individual ability"
+        ]
+    },
+    "chronic back pain": {
+        "description": "Chronic back pain is persistent or recurring pain in the back lasting more than three months, often due to structural issues, nerve damage, or degenerative conditions.",
+        "risk_score": 25,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Maintain proper posture",
+            "Regular stretching",
+            "Use ergonomic furniture",
+            "Avoid lifting heavy objects"
+        ],
+        "medications": [
+            "NSAIDs",
+            "Muscle relaxants",
+            "Physical therapy",
+            "Epidural steroid injections",
+            "Chronic pain management (e.g., TENS, acupuncture)"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (berries, turmeric)",
+            "Calcium and Vitamin D (milk, cheese, eggs)",
+            "Magnesium-rich foods (nuts, leafy greens)",
+            "Omega-3s (salmon)"
+        ],
+        "workouts": [
+            "Core stabilization: Essential for support",
+            "Water aerobics: Minimal spinal impact",
+            "Stretching: Hamstrings, hips, and back",
+            "Avoid high-impact sports"
+        ]
+    },
+    "heart failure": {
+        "description": "Heart failure is a condition where the heart can't pump blood effectively, leading to fatigue, shortness of breath, fluid retention, and reduced exercise capacity.",
+        "risk_score": 90,
+        "severity_level": "Critical",
+        "surgery_needed": "Yes",
+        "emergency": "Yes",
+        "probability_death_range": "30-40%",
+        "precautions": [
+            "Monitor fluid intake",
+            "Follow low-sodium diet",
+            "Take prescribed meds",
+            "Track weight daily"
+        ],
+        "medications": [
+            "ACE inhibitors",
+            "Beta-blockers",
+            "Loop diuretics (e.g., Furosemide)",
+            "Aldosterone antagonists (e.g., Spironolactone)",
+            "Digoxin (in some cases)"
+        ],
+        "diets": [
+            "Low-sodium diet",
+            "Fluid monitoring",
+            "Potassium-rich foods (bananas, sweet potatoes)",
+            "Omega-3 fatty acids (fish)",
+            "Avoid red meat and saturated fats"
+        ],
+        "workouts": [
+            "Supervised cardiac rehab: Custom-designed programs",
+            "Walking: Slow and monitored",
+            "Breathing techniques: Improve oxygen efficiency",
+            "Avoid dehydration or sudden exertion"
+        ]
+    },
+    "conjunctivitis": {
+        "description": "Conjunctivitis (pink eye) is inflammation of the conjunctiva of the eye due to infection or allergy, resulting in redness, discharge, and eye irritation.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Use prescribed eye drops",
+            "Avoid touching/rubbing eyes",
+            "Wash hands frequently",
+            "Don\u2019t share towels"
+        ],
+        "medications": [
+            "Antibiotic eye drops (e.g., Erythromycin, Moxifloxacin)",
+            "Antiviral drops (e.g., Ganciclovir for herpes)",
+            "Lubricant drops",
+            "Antihistamines (for allergic type)",
+            "Cool compresses"
+        ],
+        "diets": [
+            "Vitamin A-rich foods (carrots, spinach)",
+            "Zinc-rich foods (pumpkin seeds)",
+            "Hydration",
+            "Probiotics (yogurt)",
+            "Avoid dairy if allergic"
+        ],
+        "workouts": [
+            "Avoid water sports: Prevent further irritation",
+            "Gentle indoor walking: Prevent eye strain",
+            "Do not share gym equipment",
+            "Clean face after workouts"
+        ]
+    },
+    "herniated disk": {
+        "description": "A herniated disk occurs when the inner gel-like core of a spinal disc bulges out through a tear, pressing on nearby nerves and causing back pain, numbness, or weakness.",
+        "risk_score": 30,
+        "severity_level": "Low",
+        "surgery_needed": "Yes",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Avoid lifting heavy items",
+            "Follow physical therapy",
+            "Use proper posture",
+            "Take prescribed meds"
+        ],
+        "medications": [
+            "NSAIDs",
+            "Physical therapy",
+            "Muscle relaxants",
+            "Steroid injections",
+            "Surgical discectomy (if severe)"
+        ],
+        "diets": [
+            "Anti-inflammatory diet (ginger, leafy greens)",
+            "Omega-3 fatty acids (fish, flaxseed)",
+            "Vitamin D and calcium (fortified foods, milk)",
+            "Hydration"
+        ],
+        "workouts": [
+            "McKenzie extension exercises: Under guidance",
+            "Walking: Supports spine",
+            "Core strengthening: Stabilizes back",
+            "Avoid bending/twisting under load"
+        ]
+    },
+    "diaper rash": {
+        "description": "Diaper rash is skin irritation in the diaper area of infants or adults using diapers, often caused by moisture, friction, or infection.",
+        "risk_score": 5,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Keep area dry",
+            "Change diapers frequently",
+            "Apply protective creams",
+            "Avoid scented products"
+        ],
+        "medications": [
+            "Zinc oxide cream",
+            "Petroleum jelly",
+            "Topical antifungals (e.g., Clotrimazole)",
+            "Hydrocortisone cream (short-term)",
+            "Frequent diaper changes"
+        ],
+        "diets": [
+            "Breastfeeding (for infants)",
+            "For older babies: Avoid acidic foods (tomatoes, citrus)",
+            "Probiotics (yogurt)",
+            "Zinc-rich foods (eggs, meat)",
+            "Hydration"
+        ],
+        "workouts": [
+            "Not exercise-relevant: Focus on hygiene",
+            "Avoid heat and sweat buildup",
+            "Let skin breathe",
+            "Gentle motion in open diapers (for infants)"
+        ]
+    },
+    "eczema": {
+        "description": "Eczema (atopic dermatitis) is a chronic skin condition that causes itchy, inflamed, red, and dry skin, often triggered by allergens, stress, or irritants.",
+        "risk_score": 10,
+        "severity_level": "Low",
+        "surgery_needed": "No",
+        "emergency": "No",
+        "probability_death_range": "0%",
+        "precautions": [
+            "Moisturize regularly",
+            "Avoid irritants like soaps & wool",
+            "Use corticosteroid creams",
+            "Reduce stress"
+        ],
+        "medications": [
+            "Topical corticosteroids",
+            "Emollients/Moisturizers",
+            "Antihistamines (for itching)",
+            "Calcineurin inhibitors (e.g., Tacrolimus)",
+            "Phototherapy (in severe cases)"
+        ],
+        "diets": [
+            "Anti-inflammatory foods (turmeric, blueberries)",
+            "Omega-3 fatty acids (salmon, chia seeds)",
+            "Avoid allergenic foods (dairy, gluten)",
+            "Probiotics",
+            "Vitamin D (eggs, mushrooms)"
+        ],
+        "workouts": [
+            "Avoid sweat-heavy routines",
+            "Indoor walking or light yoga",
+            "Cool, breathable workout clothing",
+            "Shower promptly after exercise"
+        ]
+    }
+}
