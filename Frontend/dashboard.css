@@ -561,7 +561,7 @@ body {
   gap: 6px;
 }
 
-.chip button {
+/* .chip button {
   margin-left: 4px;
   border: none;
   background: transparent;
@@ -576,12 +576,31 @@ body {
   justify-content: center;
   border-radius: 50%;
   transition: all 0.2s ease;
+} */
+
+
+/* .chip button:hover {
+  background: var(--primary-blue);
+  color: white;
+} */
+
+.chip button {
+  border: none;
+  background: none;
+  margin-left: 6px;
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0 4px;
 }
 
 .chip button:hover {
-  background: var(--primary-blue);
-  color: white;
+  color: #d33;
+  transform: scale(1.2);
 }
+
+
 
 /* Responsive Design */
 @media (max-width: 1200px) {
@@ -664,4 +683,51 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.symptom-item {
+  cursor: pointer;
+}
+.symptom-item:hover {
+  background: #f0f0f0;
+}
+.highlight {
+  background: #e0e0e0 !important;
+}
+
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  background: #f1f3f4;
+  color: #333;
+  padding: 6px 12px;
+  margin: 4px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #e0e0e0;
+}
+
+.chip button {
+  background: none;
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  color: #666;
+}
+
+.chip button:hover {
+  color: #000;
+}
+#symptom-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+.chip {
+  text-transform: capitalize;
 }

@@ -4,246 +4,332 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>MediScan AI | Clinical Analysis Dashboard</title>
+
+    <!-- Tailwind CSS (same method as index.html) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="dashboard.css" />
-    <!-- amCharts -->
+
+    <!-- Small custom CSS for glass effect & animations (keeps look identical to index) -->
+    <style>
+      body { font-family: 'Inter', sans-serif; }
+      .bg-main {
+        background: linear-gradient(135deg, #eef2f3 0%, #dfe9f3 100%);
+        min-height: 100vh;
+      }
+      .glass {
+        background: rgba(255,255,255,0.55);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border: 1px solid rgba(255,255,255,0.35);
+      }
+      @keyframes float {
+        0%,100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      .floating { animation: float 6s ease-in-out infinite; }
+      @keyframes fadeIn { from {opacity:0} to {opacity:1} }
+      body { animation: fadeIn 0.7s ease-in-out; }
+      /* ensure amCharts containers fill their area */
+      #probabilityChart, #riskBarChart { min-height: 320px; }
+      /* symptom-dropdown might be moved to body by JS; give a neutral style fallback */
+      .symptom-dropdown {
+        background: white;
+        border: 1px solid rgba(0,0,0,0.06);
+        border-radius: 0.5rem;
+        box-shadow: 0 12px 40px rgba(2,6,23,0.08);
+        max-height: 300px;
+        overflow-y: auto;
+      }
+        .symptom-item {
+      cursor: pointer !important;
+  }
+    .prediction-grid {
+      align-items: stretch;
+  }
+  .prediction-column {
+      height: 100%;
+  }
+    </style>
+
+    <!-- amCharts (unchanged) -->
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-    <!-- jsPDF for client-side PDF generation -->
+
+    <!-- jsPDF (unchanged) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   </head>
-  <body>
-    <div class="dashboard-container">
-      <header class="header">
-        <div class="header-brand">
-          <div class="logo">MS</div>
-          <div class="header-text">
-            <h1>MediScan AI-ML Clinical Analysis</h1>
-            <p>Intelligent Symptom Assessment & Diagnostic Support</p>
+
+  <body class="bg-main text-slate-800">
+
+    <!-- Header (glass, matches index) -->
+    <header class="w-full fixed top-0 left-0 z-50 glass shadow-lg">
+      <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+          <div class="bg-gradient-to-r from-blue-500 to-blue-600 p-2 rounded-lg shadow-lg text-white font-semibold">MS</div>
+          <div>
+            <h1 class="text-xl md:text-2xl font-bold text-gray-800">MediScan Clinical Analysis</h1>
+            <p class="text-sm text-gray-500">Intelligent Symptom Assessment &amp; Diagnostic Support</p>
           </div>
         </div>
-      </header>
 
-      <!-- Move the user input out of the header into its own row so it
-           doesn't overlap header content or charts. This keeps layout
-           stable across zoom levels and screen sizes. -->
-      <div class="user-input">
-        <label for="symptom-input" class="patient-info-label">Symptoms</label>
-        <div style="position: relative; width: 100%; max-width: 740px">
-          <input
-            id="symptom-input"
-            placeholder="Start typing symptoms — select from the list"
-            autocomplete="off"
-          />
-          <div
-            id="symptom-dropdown"
-            class="symptom-dropdown"
-            aria-hidden="true"
-          ></div>
-        </div>
-        <div style="display: flex; gap: 8px; align-items: center">
-          <input id="age-input" type="number" placeholder="Age" />
-          <button id="submit-btn">Predict</button>
-        </div>
-        <div id="symptom-chips"></div>
+        <!-- keep header minimal (no extra controls) -->
+        <nav class="hidden md:block text-sm text-gray-600">
+          <!-- kept visual-only, no JS dependency -->
+          <span class="mr-6">Dashboard</span>
+          <span>Reports</span>
+        </nav>
       </div>
+    </header>
 
-      <!-- Saved Symptoms Panel: displays the list of selected symptoms persistently -->
-      <div id="saved-symptoms-panel" class="saved-symptoms">
-        <div class="saved-header">
-          <h3>Saved Symptoms</h3>
-          <button id="clear-saved-symptoms" class="download-prescription">
-            Clear
+    <!-- Main content -->
+    <main class="pt-28 pb-12 max-w-7xl mx-auto px-6">
+
+      <!-- User input row (IDs/classes preserved) -->
+      <div class="flex flex-col items-center mb-6">
+        <div class="w-full max-w-4xl">
+          <label for="symptom-input" class="block text-xs text-gray-500 mb-2 patient-info-label">Symptoms</label>
+          <div style="position:relative;" class="relative">
+            <input
+              id="symptom-input"
+              class="w-full p-3 rounded-xl border border-gray-200 bg-white shadow-sm"
+              placeholder="Start typing symptoms — select from the list"
+              autocomplete="off"
+            />
+            <div id="symptom-dropdown" class="symptom-dropdown" aria-hidden="true"></div>
+          </div>
+        </div>
+
+        <div class="mt-3 flex items-center gap-3">
+          <input id="age-input" type="number" placeholder="Age"
+                 class="p-3 rounded-xl border border-gray-200 bg-white shadow-sm w-28" />
+          <button id="submit-btn" class="bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold px-6 py-3 rounded-full shadow hover:from-blue-700 hover:to-blue-800 transition">
+            Predict
           </button>
         </div>
-        <ul id="saved-symptoms-list"></ul>
+
+        <div id="symptom-chips" class="mt-3 flex flex-wrap gap-2 justify-center w-full max-w-4xl"></div>
       </div>
 
-      <section class="summary-section">
-        <div class="chart-box">
-          <h2>Differential Diagnosis Probability</h2>
-          <div id="probabilityChart"></div>
+      <!-- Saved Symptoms Panel (IDs/classes preserved) -->
+      <div id="saved-symptoms-panel" class="saved-symptoms max-w-4xl mx-auto glass p-4 rounded-2xl shadow-lg mb-6">
+        <div class="flex items-center justify-between mb-3">
+          <h3 class="text-lg font-semibold text-slate-800">Saved Symptoms</h3>
+          <button id="clear-saved-symptoms" class="text-sm text-slate-600 hover:underline">Clear</button>
         </div>
-        <div class="chart-box">
-          <h2>Risk Score Comparison</h2>
-          <div id="riskBarChart"></div>
+        <ul id="saved-symptoms-list" class="flex flex-wrap gap-2"></ul>
+      </div>
+
+      <!-- Summary charts -->
+      <section class="summary-section grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+        <div class="chart-box glass rounded-2xl p-6 shadow-lg">
+          <h2 class="text-lg font-semibold text-slate-800 mb-4">Differential Diagnosis Probability</h2>
+          <div id="probabilityChart" class="w-full h-80"></div>
+        </div>
+
+        <div class="chart-box glass rounded-2xl p-6 shadow-lg">
+          <h2 class="text-lg font-semibold text-slate-800 mb-4">Risk Score Comparison</h2>
+          <div id="riskBarChart" class="w-full h-80"></div>
         </div>
       </section>
 
-      <section class="prediction-grid">
-        <div class="prediction-column column-primary" id="col-primary">
-          <div class="column-header">
-            <div class="sub-label">Primary Diagnosis</div>
-            <h2 id="col-primary-name">Infectious Gastroenteritis</h2>
-            <div class="probability" id="col-primary-prob">46.32%</div>
-          </div>
-          <div class="risk-grid">
-            <div class="risk-card severity-Low">
-              <div class="label">Severity</div>
-              <div class="value" id="col-primary-severity">Low</div>
-            </div>
-            <div class="risk-card">
-              <div class="label">Emergency</div>
-              <div class="value" id="col-primary-emergency">No</div>
-            </div>
-            <div class="risk-card">
-              <div class="label">Risk Score</div>
-              <div class="value" id="col-primary-risk">30</div>
-            </div>
-            <div class="risk-card">
-              <div class="label">Surgery Needed</div>
-              <div class="value" id="col-primary-surgery">No</div>
+      <!-- Predictions grid -->
+   <section class="prediction-grid grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch">
+
+
+        <!-- Primary column (keep IDs/classes) -->
+     <div class="prediction-column column-primary glass rounded-2xl p-6 shadow-lg h-full" id="col-primary">
+
+          <div class="column-header border-b border-gray-100 pb-3 mb-3">
+            <div class="sub-label text-xs uppercase tracking-wide text-gray-500">Primary Diagnosis</div>
+            <div class="flex items-center justify-between mt-2">
+              <h2 id="col-primary-name" class="text-xl font-bold text-slate-900">Infectious Gastroenteritis</h2>
+              <div id="col-primary-prob" class="text-2xl font-extrabold text-blue-600">46.32%</div>
             </div>
           </div>
-          <p class="description" id="col-primary-desc">
+
+          <div class="risk-grid grid grid-cols-2 gap-3 mb-3">
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Severity</div>
+              <div id="col-primary-severity" class="text-sm font-bold mt-1">Low</div>
+            </div>
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Emergency</div>
+              <div id="col-primary-emergency" class="text-sm font-bold mt-1">No</div>
+            </div>
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Risk Score</div>
+              <div id="col-primary-risk" class="text-sm font-bold mt-1">30</div>
+            </div>
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Surgery Needed</div>
+              <div id="col-primary-surgery" class="text-sm font-bold mt-1">No</div>
+            </div>
+          </div>
+
+          <p id="col-primary-desc" class="description text-sm text-gray-600 p-3 rounded-md bg-white/60 border-l-4 border-blue-100">
             Infectious gastroenteritis is an intestinal infection...
           </p>
-          <div class="report-grid">
-            <div class="report-list">
-              <h3>Precautions</h3>
-              <ul id="col-primary-precautions"></ul>
+
+          <div class="report-grid grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Precautions</h3>
+              <ul id="col-primary-precautions" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
-            <div class="report-list">
-              <h3>Medications</h3>
-              <ul id="col-primary-meds"></ul>
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Medications</h3>
+              <ul id="col-primary-meds" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
-            <div class="report-list">
-              <h3>Dietary Advice</h3>
-              <ul id="col-primary-diets"></ul>
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Dietary Advice</h3>
+              <ul id="col-primary-diets" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
-            <div class="report-list">
-              <h3>Activity Guidance</h3>
-              <ul id="col-primary-workouts"></ul>
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Activity Guidance</h3>
+              <ul id="col-primary-workouts" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
           </div>
-          <div style="margin-top: 18px; text-align: center">
-            <button id="col-primary-download" class="download-prescription">
+
+          <div class="mt-4 text-center">
+            <button id="col-primary-download" class="download-prescription bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2 rounded-full font-semibold shadow">
               Download Prescription
             </button>
           </div>
         </div>
 
-        <div class="prediction-column column-secondary" id="col-secondary-left">
-          <div class="column-header">
-            <div class="sub-label">Secondary Diagnosis</div>
-            <h2 id="col-left-name">Influenza</h2>
-            <div class="probability" id="col-left-prob">33.79%</div>
-          </div>
-          <div class="risk-grid">
-            <div class="risk-card severity-Medium">
-              <div class="label">Severity</div>
-              <div class="value" id="col-left-severity">Medium</div>
-            </div>
-            <div class="risk-card">
-              <div class="label">Emergency</div>
-              <div class="value" id="col-left-emergency">Yes</div>
-            </div>
-            <div class="risk-card">
-              <div class="label">Risk Score</div>
-              <div class="value" id="col-left-risk">55</div>
-            </div>
-            <div class="risk-card">
-              <div class="label">Surgery</div>
-              <div class="value" id="col-left-surgery">No</div>
+        <!-- Secondary (left) -->
+        <div class="prediction-column column-secondary glass rounded-2xl p-6 shadow-lg" id="col-secondary-left">
+          <div class="column-header border-b border-gray-100 pb-3 mb-3">
+            <div class="sub-label text-xs uppercase tracking-wide text-gray-500">Secondary Diagnosis</div>
+            <div class="flex items-center justify-between mt-2">
+              <h2 id="col-left-name" class="text-xl font-bold text-slate-900">Influenza</h2>
+              <div id="col-left-prob" class="text-2xl font-extrabold text-blue-600">33.79%</div>
             </div>
           </div>
-          <p class="description" id="col-left-desc">
+
+          <div class="risk-grid grid grid-cols-2 gap-3 mb-3">
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Severity</div>
+              <div id="col-left-severity" class="text-sm font-bold mt-1">Medium</div>
+            </div>
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Emergency</div>
+              <div id="col-left-emergency" class="text-sm font-bold mt-1">Yes</div>
+            </div>
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Risk Score</div>
+              <div id="col-left-risk" class="text-sm font-bold mt-1">55</div>
+            </div>
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Surgery</div>
+              <div id="col-left-surgery" class="text-sm font-bold mt-1">No</div>
+            </div>
+          </div>
+
+          <p id="col-left-desc" class="description text-sm text-gray-600 p-3 rounded-md bg-white/60 border-l-4 border-blue-100">
             Influenza (the flu) is a contagious respiratory illness...
           </p>
-          <div class="report-grid">
-            <div class="report-list">
-              <h3>Key Precautions</h3>
-              <ul id="col-left-precautions"></ul>
+
+          <div class="report-grid grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Key Precautions</h3>
+              <ul id="col-left-precautions" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
-            <div class="report-list">
-              <h3>Primary Medications</h3>
-              <ul id="col-left-meds"></ul>
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Primary Medications</h3>
+              <ul id="col-left-meds" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
-            <div class="report-list">
-              <h3>Dietary Advice</h3>
-              <ul id="col-left-diets"></ul>
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Dietary Advice</h3>
+              <ul id="col-left-diets" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
-            <div class="report-list">
-              <h3>Activity Guidance</h3>
-              <ul id="col-left-workouts"></ul>
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Activity Guidance</h3>
+              <ul id="col-left-workouts" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
           </div>
-          <div style="margin-top: 18px; text-align: center">
-            <button id="col-left-download" class="download-prescription">
+
+          <div class="mt-4 text-center">
+            <button id="col-left-download" class="download-prescription bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2 rounded-full font-semibold shadow">
               Download Prescription
             </button>
           </div>
         </div>
 
-        <div
-          class="prediction-column column-secondary"
-          id="col-secondary-right"
-        >
-          <div class="column-header">
-            <div class="sub-label">Tertiary Diagnosis</div>
-            <h2 id="col-right-name">Dengue Fever</h2>
-            <div class="probability" id="col-right-prob">19.89%</div>
-          </div>
-          <div class="risk-grid">
-            <div class="risk-card severity-High">
-              <div class="label">Severity</div>
-              <div class="value" id="col-right-severity">High</div>
-            </div>
-            <div class="risk-card">
-              <div class="label">Emergency</div>
-              <div class="value" id="col-right-emergency">Yes</div>
-            </div>
-            <div class="risk-card">
-              <div class="label">Risk Score</div>
-              <div class="value" id="col-right-risk">70</div>
-            </div>
-            <div class="risk-card">
-              <div class="label">Surgery</div>
-              <div class="value" id="col-right-surgery">No</div>
+        <!-- Tertiary (right) -->
+        <div class="prediction-column column-secondary glass rounded-2xl p-6 shadow-lg" id="col-secondary-right">
+          <div class="column-header border-b border-gray-100 pb-3 mb-3">
+            <div class="sub-label text-xs uppercase tracking-wide text-gray-500">Tertiary Diagnosis</div>
+            <div class="flex items-center justify-between mt-2">
+              <h2 id="col-right-name" class="text-xl font-bold text-slate-900">Dengue Fever</h2>
+              <div id="col-right-prob" class="text-2xl font-extrabold text-blue-600">19.89%</div>
             </div>
           </div>
-          <p class="description" id="col-right-desc">
+
+          <div class="risk-grid grid grid-cols-2 gap-3 mb-3">
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Severity</div>
+              <div id="col-right-severity" class="text-sm font-bold mt-1">High</div>
+            </div>
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Emergency</div>
+              <div id="col-right-emergency" class="text-sm font-bold mt-1">Yes</div>
+            </div>
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Risk Score</div>
+              <div id="col-right-risk" class="text-sm font-bold mt-1">70</div>
+            </div>
+            <div class="risk-card bg-white rounded-lg p-3 border">
+              <div class="text-xs text-gray-500 font-semibold">Surgery</div>
+              <div id="col-right-surgery" class="text-sm font-bold mt-1">No</div>
+            </div>
+          </div>
+
+          <p id="col-right-desc" class="description text-sm text-gray-600 p-3 rounded-md bg-white/60 border-l-4 border-blue-100">
             Dengue fever is a mosquito-borne tropical disease...
           </p>
-          <div class="report-grid">
-            <div class="report-list">
-              <h3>Key Precautions</h3>
-              <ul id="col-right-precautions"></ul>
+
+          <div class="report-grid grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Key Precautions</h3>
+              <ul id="col-right-precautions" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
-            <div class="report-list">
-              <h3>Primary Medications</h3>
-              <ul id="col-right-meds"></ul>
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Primary Medications</h3>
+              <ul id="col-right-meds" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
-            <div class="report-list">
-              <h3>Dietary Advice</h3>
-              <ul id="col-right-diets"></ul>
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Dietary Advice</h3>
+              <ul id="col-right-diets" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
-            <div class="report-list">
-              <h3>Activity Guidance</h3>
-              <ul id="col-right-workouts"></ul>
+            <div class="report-list bg-white p-3 rounded-lg border">
+              <h3 class="text-sm font-semibold text-blue-600 mb-2">Activity Guidance</h3>
+              <ul id="col-right-workouts" class="text-sm text-gray-600 list-disc pl-4"></ul>
             </div>
           </div>
-          <div style="margin-top: 18px; text-align: center">
-            <button id="col-right-download" class="download-prescription">
+
+          <div class="mt-4 text-center">
+            <button id="col-right-download" class="download-prescription bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2 rounded-full font-semibold shadow">
               Download Prescription
             </button>
           </div>
         </div>
+
       </section>
 
-      <footer class="footer">
-        <p>
-          MediScan AI Clinical Decision Support System | For professional use
-          only.
-        </p>
+      <footer class="text-center text-sm text-gray-500 mt-8 mb-8">
+        MediScan Clinical Decision Support System | For professional use only.
       </footer>
-    </div>
 
+    </main>
+
+    <!-- Keep original JS unchanged -->
     <script src="dashboard.js" defer></script>
   </body>
 </html>
